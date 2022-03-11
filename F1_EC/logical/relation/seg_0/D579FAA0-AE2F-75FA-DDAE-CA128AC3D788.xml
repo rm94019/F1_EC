@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_AGENDA_VISITAv1" directorySegmentName="seg_0" id="D579FAA0-AE2F-75FA-DDAE-CA128AC3D788">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-09 23:48:46 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AFA3A254-24E9-3D9D-448B-97AD6D030434</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>24DDBC19-FBE2-FDD1-E9BC-F46638FA8AAB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

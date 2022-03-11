@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="F1_EC" id="771A2AB7-7F45-392E-7CB8-67CBF2F8D506" version="3.5">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-09 23:25:17 UTC</createdTime>
+<ownerDesignName>IJK_MODELO_LOGICO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>771A2AB7-7F45-392E-7CB8-67CBF2F8D506</designId>
+</OSDM_Design>
