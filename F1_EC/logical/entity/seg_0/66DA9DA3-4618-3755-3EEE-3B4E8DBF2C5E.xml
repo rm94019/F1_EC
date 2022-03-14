@@ -14,4 +14,72 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_EMAIL" id="8AFD2BAF-C883-AA3D-D8CD-136EDC261B81">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:04:00 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="9B6183C2-6D82-C5B3-C7CA-492241D1FB3D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:04:35 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_EMAIL" id="5C189963-421F-2D72-8A6E-A974653F6532">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:04:16 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO" id="FC029473-773A-4DBF-9C99-098E7924D89E">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 17:49:00 UTC</createdTime>
+<generatorID>5E4E56D7-612A-9305-9919-F1DB6507FF8F</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5237F2E1-B780-D414-33FA-B234448BCCFF" name="T_EC_EMAIL_CAD PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:09:35 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8AFD2BAF-C883-AA3D-D8CD-136EDC261B81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

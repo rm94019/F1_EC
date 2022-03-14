@@ -14,4 +14,58 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CADASTRO" id="F2ADB8C9-E933-57F3-9635-4EE9C10500D2">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 17:47:58 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_NOME" id="AEB82EAE-B3AE-161E-7B06-3C2FCB46CEA5">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 17:49:02 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_APELIDO_FANTASIA" id="1BB59B2A-9472-318D-C867-E009B41375CC">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 17:49:04 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD2CA5A0-0D63-8B73-2561-A2579444EF1B" name="T_EC_CADASTRO PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 17:48:11 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

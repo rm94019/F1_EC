@@ -14,4 +14,70 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_IOT" id="048290AE-FE4E-3491-39C9-4716319B9215">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:28:46 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_SERIE" id="8FFCD4E9-3190-E71C-5588-73E86313CC71">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:28:47 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FORNECEDOR" id="EBDEC6F4-37D8-9090-1AC8-522998345D32">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:28:47 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INSTALACAO" id="E8E97666-AB76-9361-1942-6AE81084B0F1">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:28:47 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A8A1264-FE6E-1595-9341-5411F4C4583F" name="T_EC_IOT PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:28:51 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>048290AE-FE4E-3491-39C9-4716319B9215</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,45 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CAT_VISITA" id="D0ABE378-4CB3-0454-7844-7CCC69C779F6">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:37:42 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_VISITA" id="4A1498EB-C432-7787-A6B1-26883D897BB9">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:37:42 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEB5A95D-8730-35BF-AB0E-F4BF195BE349" name="T_EC_CAT_AGENDA PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:38:26 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0ABE378-4CB3-0454-7844-7CCC69C779F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,97 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_TELEFONE" id="952C28B1-B1DD-6581-E5D7-6364C866D1EE">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:01:30 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDI" id="5EE015E8-25DB-5576-8286-EFEEFE864068">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:01:45 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDD" id="85153B48-5241-79B2-8718-DE65E7682EAE">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:01:41 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="6A61D436-7BCE-B952-B647-FD039698BD20">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:01:42 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_TELEFONE" id="C87288AC-26F4-BA11-9497-162661C6BE92">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:01:43 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO" id="40CD4675-0507-8C8B-20F7-880382F92689">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 17:49:00 UTC</createdTime>
+<generatorID>38DF4F89-4253-076F-3721-DF699277E8A4</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="605F0625-E1E3-12D4-AF5E-B46BF4CFDC32" name="T_EC_TELEFONE_CAD PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:01:37 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>952C28B1-B1DD-6581-E5D7-6364C866D1EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

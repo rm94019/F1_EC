@@ -14,4 +14,101 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CADASTRO" id="51DEC9AD-75C8-8CE1-9EB6-738825537D35">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:12:11 UTC</createdTime>
+<generatorID>11A3ED31-4B5D-FE2D-BE1E-075B3FC127FF</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CNPJ" id="B9E9AA64-FBF7-741B-CD68-A3D04D18187D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:06:29 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FUNDACAO" id="3965873C-D4E0-96F4-41E8-1DFBD2565660">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:06:29 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ORIGEM" id="6FC3A85E-381C-1C3D-C279-1D9B1839F83D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:06:29 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_EMPRESA" id="B7150FB6-A481-44D9-BB39-F3A73ECFEF80">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:06:29 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_RAMO" id="30C9ECA3-51F5-EAC5-36B2-E2E3815D88CB">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:17:12 UTC</createdTime>
+<generatorID>9D6910E0-B3D6-40F5-A164-3FFA2C0824CC</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>B6DE1BCC-697A-6D5A-6EAC-D228BB43F188</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5ACB254-E172-DEF6-5B4F-55E7C4C23525" name="T_EC_EMPRESA PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:12:23 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51DEC9AD-75C8-8CE1-9EB6-738825537D35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,204 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_AGENDA" id="9343026C-5CEF-9E1F-0FFD-81EEF5778391">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:32:08 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DTHR_VISITA" id="5111242A-BF00-8764-4AB1-31C4954D21BA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:32:08 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DTHR_ATENDIMENTO" id="BCFDE1D1-91A6-90F1-9151-7FCF5EAB98C8">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:47:27 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DTHR_TERMINO" id="72322BBE-AA26-F0E4-DFAD-AACC449BF7BA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:45:17 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORAS_VISITA" id="B75B0442-3435-8D92-4B5E-0011FFC081FD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:46:09 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VLR_DESCONTO" id="49F2D0DB-0432-B8EB-D1ED-77F8048C538D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:33:28 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_RESUMO" id="B7BD8D3E-D30D-708A-E197-5FE7798D5B01">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:33:28 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_VISITA" id="1334A80B-9506-BC68-2377-5BA8F4FD9CC9">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:33:28 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_LAUDO" id="EA68C962-6000-12DA-C4C9-F2E85C2A0A46">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:33:28 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ENDERECO" id="ED580610-E70D-A513-267A-1ECB70902EAF">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:36:35 UTC</createdTime>
+<generatorID>308B2C12-68C5-6F4D-31CC-3ADF9734507D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>FEA3F2FF-C116-D762-A9E9-BBF702CB27DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO" id="58FF4BD8-6928-317B-3045-98B4C1B948A2">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:12:24 UTC</createdTime>
+<generatorID>3D106473-5E7F-C36B-5432-E7D1DED73EFF</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>51DEC9AD-75C8-8CE1-9EB6-738825537D35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO1" id="CB46EEFD-0BE9-9CFD-2B83-1B5419D7BBF8">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:12:29 UTC</createdTime>
+<generatorID>E2990A09-8D2E-7FB5-016E-438F83B16784</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>A4D6D8E1-9A25-0E45-E4EB-5B158863DA85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CAT_VISITA" id="5FCAB4CC-23F3-A9E8-0ABD-EDFFFB5483D3">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:41:13 UTC</createdTime>
+<generatorID>2FDA3CD9-D5DA-4FF1-3960-FE9C57A5A5DE</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>D0ABE378-4CB3-0454-7844-7CCC69C779F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_STATUS_VISITA" id="B8299C79-96C7-A829-E6B6-847D6FBB88D5">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:43:31 UTC</createdTime>
+<generatorID>99A10CE0-F80A-E6DB-34BA-E07FB5AF722B</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>1E990B40-CA3F-8421-A65D-5725C36C1482</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="359C9715-DAEB-FD66-85C1-CB8255D41FE1" name="T_EC_AGENDA PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:32:50 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9343026C-5CEF-9E1F-0FFD-81EEF5778391</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

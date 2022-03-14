@@ -14,4 +14,151 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_ENDERECO" id="FEA3F2FF-C116-D762-A9E9-BBF702CB27DA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:09:13 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO" id="4BB1D5F9-B625-F158-30AF-E59949691363">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:12:24 UTC</createdTime>
+<generatorID>D93A9474-8C4F-D9BE-2AC2-495182685AFD</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<referedAttribute>51DEC9AD-75C8-8CE1-9EB6-738825537D35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGRADOURO" id="7F9BA992-A211-770D-273F-DFC7CB6FF3F5">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:13:07 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="E8CAE88A-2FB9-9B02-4B53-C883A97F0C66">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:13:07 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPLEMENTO" id="93A7B709-0075-AB3B-192C-060F0FB0C945">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:13:07 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="B7D0D783-26C2-790B-CE69-7DC8665EE1D9">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:13:07 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="98516C7F-CE34-EEC5-A555-57046CF89E0E">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:13:07 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIDADE" id="D3B2D2B3-1310-16DF-D748-48547F0C00D1">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:13:10 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UF" id="CEEDE6F9-B57F-CD37-B80C-0005732DD269">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:15:17 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_ENDERECO" id="38D6D2F5-8CC9-C5E1-CC68-012DCC1EA061">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:15:59 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="655B131E-66B6-95D8-FBD0-2C3AF894CDE7" name="T_EC_ENDERECO PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:10:27 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEA3F2FF-C116-D762-A9E9-BBF702CB27DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

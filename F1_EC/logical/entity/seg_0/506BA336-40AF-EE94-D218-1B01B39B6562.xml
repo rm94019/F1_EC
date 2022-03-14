@@ -14,4 +14,45 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_RAMO" id="B6DE1BCC-697A-6D5A-6EAC-D228BB43F188">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:16:27 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_RAMO" id="E32CAD1C-AB6A-3F25-F7A0-2613DF381D7A">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:16:27 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73B2C667-B6DC-7A0B-7AF9-82B187F7DC98" name="T_EC_RAMO_EMP PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:17:09 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6DE1BCC-697A-6D5A-6EAC-D228BB43F188</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
