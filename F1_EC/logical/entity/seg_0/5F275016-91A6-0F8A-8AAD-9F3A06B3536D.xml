@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B4B8F15-A4D7-EF5C-D48E-9B9C94B3F79B" name="T_EC_STATUS_VISITA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F275016-91A6-0F8A-8AAD-9F3A06B3536D" name="T_EC_STATUS_MAQUINA">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:42:42 UTC</createdTime>
+<createdTime>2022-03-14 21:15:27 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_STATUS_VISITA" id="1E990B40-CA3F-8421-A65D-5725C36C1482">
+<Attribute name="COD_STATUS_MAQUINA" id="B81C86A9-ADF9-9266-1C11-8B2D6196D05F">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[CONCLUÍDO, PENDENTE, EM ABERTO, EM ATENDIMENTO, FREEZE e OUTROS.]]></commentInRDBMS>
+<createdTime>2022-03-14 21:15:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[1: Ativa, 2: Inativa]]></commentInRDBMS>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
@@ -28,9 +28,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_STATUS_VISITA" id="62EF801C-A485-26FC-72D2-0F37DAD352F1">
+<Attribute name="DS_STATUS_MAQUINA" id="82BAC1C9-6FFF-1BDA-7D6F-4FCB104FF6C1">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:43:13 UTC</createdTime>
+<createdTime>2022-03-14 21:15:27 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
@@ -40,16 +40,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B6EBC029-21D8-942B-7D27-D81659F066D0" name="T_EC_STATUS_VISITA PK">
+<identifier id="EC8AEC39-E5E7-91E0-7859-4086879436A8" name="T_EC_STATUS_VISITA PK">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:43:12 UTC</createdTime>
+<createdTime>2022-03-14 21:15:27 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1E990B40-CA3F-8421-A65D-5725C36C1482</attributeRef>
+<attributeRef>B81C86A9-ADF9-9266-1C11-8B2D6196D05F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -4,7 +4,7 @@
 <createdTime>2022-03-09 23:31:33 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <generatorID>11A3ED31-4B5D-FE2D-BE1E-075B3FC127FF</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,7 +34,7 @@
 <createdTime>2022-03-14 20:06:29 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <createdTime>2022-03-14 20:06:29 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +60,7 @@
 <createdTime>2022-03-14 20:06:29 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,28 +69,29 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ST_EMPRESA" id="B7150FB6-A481-44D9-BB39-F3A73ECFEF80">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:06:29 UTC</createdTime>
-<ownerDesignName>F1_EC</ownerDesignName>
-<engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_RAMO" id="30C9ECA3-51F5-EAC5-36B2-E2E3815D88CB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:17:12 UTC</createdTime>
 <generatorID>9D6910E0-B3D6-40F5-A164-3FFA2C0824CC</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <referedAttribute>B6DE1BCC-697A-6D5A-6EAC-D228BB43F188</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_CLI" id="A269DF66-66F1-2BCF-CD24-5F647528D341">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 21:02:30 UTC</createdTime>
+<generatorID>DFF8678A-FD2D-C93B-3B61-BFEADD51A74D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+</engineerTo>
+<referedAttribute>4272FCA5-F9A4-12E6-3945-229DDA48D853</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -103,7 +104,7 @@
 <createdTime>2022-03-14 20:12:23 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

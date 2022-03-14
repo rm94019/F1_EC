@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="visitar" directorySegmentName="seg_0" id="3D106473-5E7F-C36B-5432-E7D1DED73EFF">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="5BC19069-8C18-5795-6019-397676B81A4D">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-10 18:44:11 UTC</createdTime>
+<createdTime>2022-03-14 21:05:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <sourcePk>D5ACB254-E172-DEF6-5B4F-55E7C4C23525</sourcePk>
 <identifying>false</identifying>
@@ -13,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>0488CF58-009E-AE5A-D69A-DA7AD93D268A</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>24DDBC19-FBE2-FDD1-E9BC-F46638FA8AAB</targetEntity>
+<targetEntity>84D755B0-B019-9BB5-6DA5-52AB9CD1820F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

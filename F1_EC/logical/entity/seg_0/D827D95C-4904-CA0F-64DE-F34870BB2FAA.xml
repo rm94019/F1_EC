@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D827D95C-4904-CA0F-64DE-F34870BB2FAA" name="T_EC_CAT_AGENDA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D827D95C-4904-CA0F-64DE-F34870BB2FAA" name="T_EC_CAT_VISITA">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-09 23:41:09 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +18,10 @@
 <Attribute name="COD_CAT_VISITA" id="D0ABE378-4CB3-0454-7844-7CCC69C779F6">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:37:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Algumas visitas são cobradas dos clientes (manutenção, suporte, consultoria) e descontos podem ser concedidos. Visitas de prospecção e reunião executiva não têm investimento a ser feito pela empresa.]]></commentInRDBMS>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +33,7 @@
 <createdTime>2022-03-14 20:37:42 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +48,7 @@
 <createdTime>2022-03-14 20:38:26 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="9942BC37-622D-5ED8-D541-9CD7B8CFE81D" value="true"/>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

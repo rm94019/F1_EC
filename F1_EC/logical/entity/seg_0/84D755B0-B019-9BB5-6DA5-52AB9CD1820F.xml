@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66DA9DA3-4618-3755-3EEE-3B4E8DBF2C5E" name="T_EC_EMAIL_CAD">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84D755B0-B019-9BB5-6DA5-52AB9CD1820F" name="TC_EC_EMP_PROP">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-10 00:00:53 UTC</createdTime>
+<createdTime>2022-03-14 21:04:26 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
@@ -15,54 +15,39 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_EMAIL" id="8AFD2BAF-C883-AA3D-D8CD-136EDC261B81">
+<Attribute name="COD_EMP_PROP" id="5C3A6039-EAE6-7A01-5004-A0BA83F1239E">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:04:00 UTC</createdTime>
+<createdTime>2022-03-14 21:04:40 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO" id="E3C49061-BADB-6954-8F74-B3EB9F484F14">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 21:05:15 UTC</createdTime>
+<generatorID>6D5D3C2A-504D-20FD-5E54-9C3B207A708F</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+</engineerTo>
+<referedAttribute>A4D6D8E1-9A25-0E45-E4EB-5B158863DA85</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EMAIL" id="9B6183C2-6D82-C5B3-C7CA-492241D1FB3D">
+<Attribute name="COD_CADASTRO1" id="1922E542-B9C3-4EA6-BACC-36E219168C2C">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:04:35 UTC</createdTime>
+<createdTime>2022-03-14 21:05:21 UTC</createdTime>
+<generatorID>5BC19069-8C18-5795-6019-397676B81A4D</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_CADASTRO" id="FC029473-773A-4DBF-9C99-098E7924D89E">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-14 17:49:00 UTC</createdTime>
-<generatorID>5E4E56D7-612A-9305-9919-F1DB6507FF8F</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-</engineerTo>
-<referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_STATUS" id="3982E4E8-F715-BA81-0CA3-DCB4A1DE52CF">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-14 21:12:10 UTC</createdTime>
-<generatorID>2D31799B-D00D-AEB6-6FDF-A84B7F64E0D3</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-</engineerTo>
-<referedAttribute>27E8EB1C-FDB3-97B7-4B12-07A53AD187B7</referedAttribute>
+<referedAttribute>51DEC9AD-75C8-8CE1-9EB6-738825537D35</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -70,16 +55,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5237F2E1-B780-D414-33FA-B234448BCCFF" name="T_EC_EMAIL_CAD PK">
+<identifier id="F204FBBE-7D82-176E-945F-4B2E97A21F1E" name="TC_EC_EMP_PROP PK">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:09:35 UTC</createdTime>
+<createdTime>2022-03-14 21:04:53 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8AFD2BAF-C883-AA3D-D8CD-136EDC261B81</attributeRef>
+<attributeRef>5C3A6039-EAE6-7A01-5004-A0BA83F1239E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

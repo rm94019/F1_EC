@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24DDBC19-FBE2-FDD1-E9BC-F46638FA8AAB" name="T_EC_AGENDA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1766A1E7-01E0-8C00-5B73-A6210CFFA6B9" name="T_EC_VISITA">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-09 23:38:36 UTC</createdTime>
+<createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_AGENDA" id="9343026C-5CEF-9E1F-0FFD-81EEF5778391">
+<Attribute name="COD_VISITA" id="5D68AB90-14D6-C7FC-4BCD-56702A51C929">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:32:08 UTC</createdTime>
+<createdTime>2022-03-14 21:22:37 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
@@ -25,21 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DTHR_VISITA" id="5111242A-BF00-8764-4AB1-31C4954D21BA">
+<Attribute name="DTHR_ATENDIMENTO" id="95831CDB-225B-872E-4A67-AE6361E55326">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:32:08 UTC</createdTime>
-<ownerDesignName>F1_EC</ownerDesignName>
-<engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VLR_DESCONTO" id="49F2D0DB-0432-B8EB-D1ED-77F8048C538D">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:33:28 UTC</createdTime>
+<createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
@@ -47,14 +35,38 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_RESUMO" id="B7BD8D3E-D30D-708A-E197-5FE7798D5B01">
+<Attribute name="DTHR_TERMINO" id="E827D691-EF19-DA1B-2748-A0C67AE3FC51">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:33:28 UTC</createdTime>
+<createdTime>2022-03-14 21:21:21 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORAS_VISITA" id="258D0E05-609F-694D-53DB-91C367D42225">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 21:21:21 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_LAUDO" id="36F7D756-3A13-BDE0-9AF5-D58385116B85">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
@@ -65,71 +77,45 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_ENDERECO" id="ED580610-E70D-A513-267A-1ECB70902EAF">
+<Attribute name="COD_STATUS_VISITA" id="3C0FB483-05BE-72C3-F10D-AEEE94CE2C77">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:36:35 UTC</createdTime>
-<generatorID>308B2C12-68C5-6F4D-31CC-3ADF9734507D</generatorID>
+<createdTime>2022-03-14 21:24:51 UTC</createdTime>
+<generatorID>F13EFA89-771A-BFBE-E63F-66761D4F9209</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
-<referedAttribute>FEA3F2FF-C116-D762-A9E9-BBF702CB27DA</referedAttribute>
+<referedAttribute>1E990B40-CA3F-8421-A65D-5725C36C1482</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CAT_VISITA" id="5FCAB4CC-23F3-A9E8-0ABD-EDFFFB5483D3">
+<Attribute name="COD_AGENDA" id="F652AD9E-5BCE-E714-2EE7-62A61AE867DD">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:41:13 UTC</createdTime>
-<generatorID>2FDA3CD9-D5DA-4FF1-3960-FE9C57A5A5DE</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-</engineerTo>
-<referedAttribute>D0ABE378-4CB3-0454-7844-7CCC69C779F6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_EMP_PROP" id="CD38129B-71CE-EFF2-BA28-DF5F08552C76">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-14 21:05:31 UTC</createdTime>
-<generatorID>648B3EF0-F4BE-85A8-1AF4-728AEF248693</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-</engineerTo>
-<referedAttribute>5C3A6039-EAE6-7A01-5004-A0BA83F1239E</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_VISITA" id="CAFF770C-F99A-2047-410C-E211CB2B3B8E">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-14 21:25:10 UTC</createdTime>
+<createdTime>2022-03-14 21:28:43 UTC</createdTime>
 <generatorID>F1C1F59C-74A4-F0A4-57E7-6DBF6C664EE9</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>5D68AB90-14D6-C7FC-4BCD-56702A51C929</referedAttribute>
+<referedAttribute>9343026C-5CEF-9E1F-0FFD-81EEF5778391</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="359C9715-DAEB-FD66-85C1-CB8255D41FE1" name="T_EC_AGENDA PK">
+<identifier id="9EAC1F1D-6029-D597-B6BA-F0A667A6E82F" name="T_EC_AGENDA PK">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:32:50 UTC</createdTime>
+<createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9343026C-5CEF-9E1F-0FFD-81EEF5778391</attributeRef>
+<attributeRef>5D68AB90-14D6-C7FC-4BCD-56702A51C929</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
