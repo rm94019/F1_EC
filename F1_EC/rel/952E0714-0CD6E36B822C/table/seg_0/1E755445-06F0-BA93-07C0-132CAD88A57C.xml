@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E755445-06F0-BA93-07C0-132CAD88A57C" name="T_EC_PROPRIETARIO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>FF4404FA-415D-7AD2-9A5A-556A69E6F8E0</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CADASTRO" id="02422013-23D1-F6FA-1407-9D57BD79DC7C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>A4D6D8E1-9A25-0E45-E4EB-5B158863DA85</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDA56F40-C826-F2AC-7CC3-7552BF4C6D7F" referredColumn="EDDEC863-0F03-11D7-C526-E2A645FEC465"/>
+</associations>
+</Column>
+<Column name="DS_GENERO" id="CE031356-0F84-FE3D-DCB7-F70AD1DC2EC1">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>CB832E14-2FB5-69C5-ECEB-00F38013A500</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO" id="92C3559E-9954-C8B8-98F6-49AD8B64A2DB">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>80D9591E-2F9F-FEA1-BAE9-CA9FB25A887F</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E42DB311-B84E-D303-D48F-E4D790197FB1" name="T_EC_PROPRIETARIO_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>CEC0AC5A-FC78-5D78-F9FB-370BB229113E</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02422013-23D1-F6FA-1407-9D57BD79DC7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EDFD794-843D-6EAA-2380-100CC19EC410" name="T_EC_CADASTRO_FKv2">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>35CA76A4-3D17-7653-EFDB-FA34861D00EC</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02422013-23D1-F6FA-1407-9D57BD79DC7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

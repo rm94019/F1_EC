@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D50D095-BE7E-03EE-595D-D791114FC2D3" name="T_EC_EMAIL_CAD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>66DA9DA3-4618-3755-3EEE-3B4E8DBF2C5E</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_EMAIL" id="19D5C19A-AC34-D401-E117-DC3D9BB7C837">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>8AFD2BAF-C883-AA3D-D8CD-136EDC261B81</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="EF52AC8A-4422-D50B-19F4-79C049DF29C1">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>9B6183C2-6D82-C5B3-C7CA-492241D1FB3D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_CADASTRO" id="D97EB3E4-25AC-F579-7B68-7A9D23E76F34">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>FC029473-773A-4DBF-9C99-098E7924D89E</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D1E33DE-17EE-B8AC-F08E-1094313179F3" referredColumn="EDDEC863-0F03-11D7-C526-E2A645FEC465"/>
+</associations>
+</Column>
+<Column name="COD_STATUS" id="C1761F01-D799-D714-0DD1-C057CE1E6F06">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>3982E4E8-F715-BA81-0CA3-DCB4A1DE52CF</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBAA3C7A-7B10-7EB1-D974-EBDE5CC01C91" referredColumn="A332C6F9-5B9C-51E5-B26A-2B65F95AC5AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5E17DED-802E-CB05-1D78-D9B2EB7776C1" name="T_EC_EMAIL_CAD_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>5237F2E1-B780-D414-33FA-B234448BCCFF</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19D5C19A-AC34-D401-E117-DC3D9BB7C837"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF9D475B-726E-086A-DA5E-92E2EAF2D34C" name="TC_EC_STATUS_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>2D31799B-D00D-AEB6-6FDF-A84B7F64E0D3</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1761F01-D799-D714-0DD1-C057CE1E6F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E157A01-5E4B-666B-C84F-F880BDEB4E3C" name="T_EC_CADASTRO_FKv4">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>5E4E56D7-612A-9305-9919-F1DB6507FF8F</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D97EB3E4-25AC-F579-7B68-7A9D23E76F34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

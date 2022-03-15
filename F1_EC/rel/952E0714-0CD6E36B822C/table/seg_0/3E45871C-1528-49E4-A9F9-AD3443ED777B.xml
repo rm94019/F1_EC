@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E45871C-1528-49E4-A9F9-AD3443ED777B" name="TC_EC_STATUS">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>FE09D3A8-5B24-C8FF-862B-369556BEE07D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_STATUS" id="A332C6F9-5B9C-51E5-B26A-2B65F95AC5AD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>27E8EB1C-FDB3-97B7-4B12-07A53AD187B7</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_STATUS" id="BCEB205C-0A55-7F2B-CE1E-309FFFF657AB">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[1: Ativado, 2: Desativado]]></commentInRDBMS>
+<generatorID>91D25689-3541-D06D-57D8-5F8CE960CDDE</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC763947-1160-811A-AF96-D23E6C91E144" name="TC_EC_STATUS_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>03F74C76-2D5B-52C9-68B9-4F00C530C3F4</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A332C6F9-5B9C-51E5-B26A-2B65F95AC5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DDB5C20-759A-E122-696B-CD2507E6F6BE" name="T_EC_EMPRESA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>0488CF58-009E-AE5A-D69A-DA7AD93D268A</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CADASTRO" id="2AF589E8-108F-61F4-C84B-08E36B2ABF5B">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>51DEC9AD-75C8-8CE1-9EB6-738825537D35</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01430E7C-5536-6EE6-1783-8E0465787CE4" referredColumn="EDDEC863-0F03-11D7-C526-E2A645FEC465"/>
+</associations>
+</Column>
+<Column name="NR_CNPJ" id="B7DAD319-9D8E-8545-F3E6-6C436894DF34">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>B9E9AA64-FBF7-741B-CD68-A3D04D18187D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FUNDACAO" id="FE9AA4C0-7E31-92A3-DE0A-DBF54155874D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>3965873C-D4E0-96F4-41E8-1DFBD2565660</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ORIGEM" id="2D879F51-24D8-D609-0A56-BC23A3135F30">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>6FC3A85E-381C-1C3D-C279-1D9B1839F83D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_RAMO" id="B19215E0-17EE-3C06-FA7A-7BB5551B11D4">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>30C9ECA3-51F5-EAC5-36B2-E2E3815D88CB</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E88E554-2DB9-DA0C-FC1F-4B4B970BBDB3" referredColumn="5DD4E074-A33F-FA04-99D6-C28C9AED0F0A"/>
+</associations>
+</Column>
+<Column name="COD_TIPO_CLI" id="2C566585-5C9F-98EB-84EC-69D340043446">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>A269DF66-66F1-2BCF-CD24-5F647528D341</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16832F1D-5810-B9AE-556A-9AA47605C909" referredColumn="5B2C3C75-8ABE-D963-40F0-14C6482817F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FE2CEFA-21AE-D56C-ADAA-560869C940C8" name="T_EC_EMPRESA_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>D5ACB254-E172-DEF6-5B4F-55E7C4C23525</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF589E8-108F-61F4-C84B-08E36B2ABF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C3D614B-2255-924B-AD37-79C85D37705A" name="T_EC_EMPRESA__IDX">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DFF8678A-FD2D-C93B-3B61-BFEADD51A74D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2C566585-5C9F-98EB-84EC-69D340043446"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="254EE3B1-0119-4317-8747-EC92B248B872" name="T_EC_CADASTRO_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>11A3ED31-4B5D-FE2D-BE1E-075B3FC127FF</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF589E8-108F-61F4-C84B-08E36B2ABF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="466FD6BE-30C1-D412-20C5-879500AF4EEE" name="T_EC_RAMO_EMP_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>9D6910E0-B3D6-40F5-A164-3FFA2C0824CC</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B19215E0-17EE-3C06-FA7A-7BB5551B11D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6182627-81D8-BFF0-B036-9F0A7E701523" name="T_EC_TIPO_CLIENTE_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>DFF8678A-FD2D-C93B-3B61-BFEADD51A74D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C566585-5C9F-98EB-84EC-69D340043446"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

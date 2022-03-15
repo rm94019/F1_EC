@@ -5,6 +5,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,11 +23,13 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_CNPJ" id="B9E9AA64-FBF7-741B-CD68-A3D04D18187D">
@@ -35,6 +38,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,6 +52,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,6 +66,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,6 +82,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <referedAttribute>B6DE1BCC-697A-6D5A-6EAC-D228BB43F188</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -90,6 +97,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <referedAttribute>4272FCA5-F9A4-12E6-3945-229DDA48D853</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -105,6 +113,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

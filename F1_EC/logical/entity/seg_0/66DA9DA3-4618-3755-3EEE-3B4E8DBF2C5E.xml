@@ -5,6 +5,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,24 +22,12 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="EMAIL" id="9B6183C2-6D82-C5B3-C7CA-492241D1FB3D">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:04:35 UTC</createdTime>
-<ownerDesignName>F1_EC</ownerDesignName>
-<engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_CADASTRO" id="FC029473-773A-4DBF-9C99-098E7924D89E">
 <createdBy>gamer</createdBy>
@@ -47,12 +36,28 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="9B6183C2-6D82-C5B3-C7CA-492241D1FB3D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 20:04:35 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_STATUS" id="3982E4E8-F715-BA81-0CA3-DCB4A1DE52CF">
 <createdBy>gamer</createdBy>
@@ -61,6 +66,7 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <referedAttribute>27E8EB1C-FDB3-97B7-4B12-07A53AD187B7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,10 +82,12 @@
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8AFD2BAF-C883-AA3D-D8CD-136EDC261B81</attributeRef>
+<attributeRef>FC029473-773A-4DBF-9C99-098E7924D89E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

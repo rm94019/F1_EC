@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58E7DD94-C81C-497B-30A8-8C9D213187DD" name="T_EC_STATUS_VISITA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>7B4B8F15-A4D7-EF5C-D48E-9B9C94B3F79B</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_STATUS_VISITA" id="83F4A899-0878-47C5-D0AF-03DB02A31520">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[CONCLUÍDO, PENDENTE, EM ABERTO, EM ATENDIMENTO, FREEZE e OUTROS.]]></commentInRDBMS>
+<generatorID>1E990B40-CA3F-8421-A65D-5725C36C1482</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_STATUS_VISITA" id="BF8EEA14-C26B-5EF0-BC09-FAD15FC3FF71">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>62EF801C-A485-26FC-72D2-0F37DAD352F1</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73DA330B-A75E-2C03-AB84-2463CD56A210" name="T_EC_STATUS_VISITA_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>B6EBC029-21D8-942B-7D27-D81659F066D0</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F4A899-0878-47C5-D0AF-03DB02A31520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

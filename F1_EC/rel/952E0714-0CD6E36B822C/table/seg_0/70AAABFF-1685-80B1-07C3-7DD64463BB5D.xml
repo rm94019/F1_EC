@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70AAABFF-1685-80B1-07C3-7DD64463BB5D" name="T_EC_VISITA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>1766A1E7-01E0-8C00-5B73-A6210CFFA6B9</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_VISITA" id="3D9C7A16-545B-C87A-BD00-B164C28E2D5C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>5D68AB90-14D6-C7FC-4BCD-56702A51C929</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTHR_ATENDIMENTO" id="40ECF92E-D61C-DEAC-6093-35C11B3A08A4">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>95831CDB-225B-872E-4A67-AE6361E55326</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTHR_TERMINO" id="F0C456AC-16E9-7369-83AB-07E4B04AF75E">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>E827D691-EF19-DA1B-2748-A0C67AE3FC51</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORAS_VISITA" id="680E7348-E55C-1F2D-5B39-A67B9A2E7972">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>258D0E05-609F-694D-53DB-91C367D42225</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_LAUDO" id="9B0B4008-2C9B-0E4D-86C2-168FB7187726">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>36F7D756-3A13-BDE0-9AF5-D58385116B85</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_STATUS_VISITA" id="609E953B-F2CE-CD6C-AE64-CA9AAF53D7D7">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>3C0FB483-05BE-72C3-F10D-AEEE94CE2C77</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3075EEEB-DDBC-2AE4-FC96-04BCFC2599C0" referredColumn="83F4A899-0878-47C5-D0AF-03DB02A31520"/>
+</associations>
+</Column>
+<Column name="COD_AGENDA" id="A5D7294A-644F-F523-CE79-DE957DE837B5">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>F652AD9E-5BCE-E714-2EE7-62A61AE867DD</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B5ACC6A-8F5D-3719-DEDD-6C38B2F7B051" referredColumn="424D7093-6D7D-E6D2-4BB7-71CC895AAC36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22DC563A-4C8F-D702-A543-B913A246403D" name="T_EC_VISITA_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>9EAC1F1D-6029-D597-B6BA-F0A667A6E82F</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D9C7A16-545B-C87A-BD00-B164C28E2D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFA677C3-7EC8-B9EE-DF33-8828A12439B4" name="T_EC_VISITA__IDX">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F1C1F59C-74A4-F0A4-57E7-6DBF6C664EE9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A5D7294A-644F-F523-CE79-DE957DE837B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AD45116-59F9-BCBB-6994-DA3E6EF921BE" name="T_EC_STATUS_VISITA_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>F13EFA89-771A-BFBE-E63F-66761D4F9209</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="609E953B-F2CE-CD6C-AE64-CA9AAF53D7D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC3567E0-E0F2-CD42-BC8F-84D8306BB95B" name="T_EC_AGENDA_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>F1C1F59C-74A4-F0A4-57E7-6DBF6C664EE9</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5D7294A-644F-F523-CE79-DE957DE837B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

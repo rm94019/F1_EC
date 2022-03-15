@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4F73F12-098A-1E9A-987B-B1E2D5BE589A" containerWithKeyObject="68CC85F1-CE4F-E93D-27EC-E51EE21A702B" localFKIndex="E2058A08-2F1F-334D-FC95-2ECE99538034" name="TC_EC_STATUS_FKv2">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:52:48 UTC</createdTime>
+<generatorID>EAEACA26-E3E0-C367-EC15-9E9414E46F2B</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<referredTableLongName>TC_EC_STATUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E45871C-1528-49E4-A9F9-AD3443ED777B</referredTableID>
+<keyObject>CC763947-1160-811A-AF96-D23E6C91E144</keyObject>
+<referredKeyID>CC763947-1160-811A-AF96-D23E6C91E144</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_STATUS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
