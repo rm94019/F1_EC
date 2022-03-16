@@ -87,7 +87,8 @@
 <referedAttribute>B6DE1BCC-697A-6D5A-6EAC-D228BB43F188</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_TIPO_CLI" id="A269DF66-66F1-2BCF-CD24-5F647528D341">
@@ -102,7 +103,8 @@
 <referedAttribute>4272FCA5-F9A4-12E6-3945-229DDA48D853</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

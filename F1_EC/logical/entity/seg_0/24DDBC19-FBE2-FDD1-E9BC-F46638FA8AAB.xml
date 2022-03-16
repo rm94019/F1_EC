@@ -70,7 +70,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_ENDERECO" id="ED580610-E70D-A513-267A-1ECB70902EAF">
@@ -85,7 +85,8 @@
 <referedAttribute>FEA3F2FF-C116-D762-A9E9-BBF702CB27DA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_CAT_VISITA" id="5FCAB4CC-23F3-A9E8-0ABD-EDFFFB5483D3">
@@ -100,19 +101,36 @@
 <referedAttribute>D0ABE378-4CB3-0454-7844-7CCC69C779F6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_EMP_PROP" id="CD38129B-71CE-EFF2-BA28-DF5F08552C76">
+<Attribute name="COD_CADASTRO" id="F0BC9BB1-BCD6-CA09-DA13-CDF829DC8CB8">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 21:05:31 UTC</createdTime>
+<createdTime>2022-03-16 21:25:43 UTC</createdTime>
 <generatorID>648B3EF0-F4BE-85A8-1AF4-728AEF248693</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
 <item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
 </engineerTo>
-<referedAttribute>5C3A6039-EAE6-7A01-5004-A0BA83F1239E</referedAttribute>
+<referedAttribute>E3C49061-BADB-6954-8F74-B3EB9F484F14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO1" id="D5DF98F0-AEE9-AABB-0C65-32FDDBC8C2AA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 21:25:54 UTC</createdTime>
+<generatorID>648B3EF0-F4BE-85A8-1AF4-728AEF248693</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
+<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+</engineerTo>
+<referedAttribute>1922E542-B9C3-4EA6-BACC-36E219168C2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
