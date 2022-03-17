@@ -34,17 +34,6 @@
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_INSTALACAO" id="BA9FCD45-2C68-D0F0-9918-7B1C3C00A7A5">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>E8E97666-AB76-9361-1942-6AE81084B0F1</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="COD_FORNECEDOR_IOT" id="FB6BA30A-5FE9-FF8A-0D9C-0D4AB52726E0">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 13:45:45 UTC</createdTime>

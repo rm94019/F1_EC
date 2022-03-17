@@ -50,7 +50,7 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NR_NUMERO_SERIE" id="D60D2341-7398-25D9-FCFB-D60AC890FC77">
+<Column name="NR_SERIE_MAQUINA" id="D60D2341-7398-25D9-FCFB-D60AC890FC77">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>2837421F-AFC0-5FAC-BEB4-43B3B70BFAF0</generatorID>
@@ -143,16 +143,6 @@
 <colAssociation fkAssociation="7EA3ADD9-10E4-4BB2-6C8F-C103EC06BD46" referredColumn="A16C1080-53C4-25F0-97F1-96F28FD01D84"/>
 </associations>
 </Column>
-<Column name="COD_TIPO_CLI" id="F0E89887-9DE6-DD90-2E84-E2CEEEE7D983">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-17 15:03:34 UTC</createdTime>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="COD_PAIS" id="710B1D04-0F0A-A79B-996C-478D589D3582">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:21:23 UTC</createdTime>
@@ -167,7 +157,7 @@
 <colAssociation fkAssociation="051F8D4A-F8B7-A837-69BE-464A87E0DB2E" referredColumn="18F10505-D920-4C47-72E4-2B9DBF9810F8"/>
 </associations>
 </Column>
-<Column name="COD_TIPO_CLI1" id="EF09A6BC-DF9E-FC7A-B199-655CADE6B125">
+<Column name="COD_TIPO_CLI" id="EF09A6BC-DF9E-FC7A-B199-655CADE6B125">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 21:30:35 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -193,8 +183,18 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ACAA5C65-6D42-78D5-77BC-9ADFC372839D"/>
 <colUsage columnID="D869FEFB-43C0-8714-B8F4-F0723948A40E"/>
+<colUsage columnID="ACAA5C65-6D42-78D5-77BC-9ADFC372839D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="190A5B5E-AAEC-D4E8-6306-5E1BA32FFCB7" name="T_EC_MAQUINAS__UN">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 22:41:41 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D60D2341-7398-25D9-FCFB-D60AC890FC77"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7EE39E3A-E956-5D35-5BA8-0DAD5B810265" name="T_EC_EMPRESA_FK">
