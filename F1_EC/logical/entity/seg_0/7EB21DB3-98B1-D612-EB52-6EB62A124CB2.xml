@@ -4,8 +4,7 @@
 <createdTime>2022-03-10 17:42:47 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +20,7 @@
 <createdTime>2022-03-14 17:47:58 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,8 +33,7 @@
 <createdTime>2022-03-14 17:49:02 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,14 +46,28 @@
 <createdTime>2022-03-14 17:49:04 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>155</dataTypeSize>
 <ownDataTypeParameters>155,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_CAD" id="AFB45F40-9253-7192-5999-B4A114FC6B8D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 02:21:06 UTC</createdTime>
+<generatorID>2DE22ABB-202C-84F7-41B5-B251A699DA33</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
+</engineerTo>
+<referedAttribute>2C51158B-2EB4-9035-CFB6-FC81267AC78B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -65,8 +76,7 @@
 <createdTime>2022-03-14 17:48:11 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -24,18 +24,6 @@
 <colAssociation fkAssociation="6A5999B2-4A3E-0FE3-E963-A1A67402A9F1" referredColumn="419E4ED0-E661-887B-D375-5A94225BA984"/>
 </associations>
 </Column>
-<Column name="DS_GENERO" id="9CBABF27-6B11-BEC1-F26E-F728E6B18104">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>CB832E14-2FB5-69C5-ECEB-00F38013A500</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="DT_NASCIMENTO" id="FE83FADD-70D5-691B-584D-224BA7128173">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
@@ -46,6 +34,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_GENERO" id="DBDB88CC-BF3D-4E3C-12E5-61685AA7C94D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 12:24:44 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F65CB27-6FA5-A87E-12C4-DE2B0D7D2A27" referredColumn="B9053604-76A0-E695-4888-2FD5B6DA3A39"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -70,6 +73,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6D8D8265-8E4E-706F-0721-392224A336CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34CEF749-2277-F876-F37F-91105B35FF3B" name="T_EC_GENERO_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 12:24:44 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBDB88CC-BF3D-4E3C-12E5-61685AA7C94D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

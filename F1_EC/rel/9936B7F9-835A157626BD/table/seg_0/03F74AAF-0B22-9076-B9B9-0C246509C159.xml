@@ -57,5 +57,15 @@ INSERT INTO {table} (DS_STATUS_VISITA) VALUES ('OUTROS');
 <colUsage columnID="2F57F932-C26F-B639-B319-594B51E2EA63"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="DCB376BA-3DF2-DA02-532E-F6CEF2A7B232" name="T_EC_STATUS_VISITA__UN">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 12:56:04 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF4EB256-FF16-0405-D5F3-EB12419A212A"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

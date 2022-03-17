@@ -54,5 +54,15 @@ INSERT INTO {table} (NM_VISTA) VALUES('reunião executiva');]]></afterCreate>
 <colUsage columnID="7FD906F3-4EDD-2E69-6D07-3EF31B083D2D"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="A287B11D-C473-DF55-2FB1-B17EF3CFCDC2" name="T_EC_CAT_VISITA__UN">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 12:54:56 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59DB76EE-5AC9-B4D3-CE4A-44BBAEA5D37B"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

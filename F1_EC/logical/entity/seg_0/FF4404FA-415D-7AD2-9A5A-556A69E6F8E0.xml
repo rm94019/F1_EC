@@ -4,8 +4,7 @@
 <createdTime>2022-03-09 23:31:23 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,8 +21,7 @@
 <generatorID>35CA76A4-3D17-7653-EFDB-FA34861D00EC</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,27 +30,27 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_GENERO" id="CB832E14-2FB5-69C5-ECEB-00F38013A500">
+<Attribute name="COD_GENERO" id="1BB46FC5-D911-1FC2-67F3-4C53D5F3F304">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:05:45 UTC</createdTime>
+<createdTime>2022-03-17 12:30:51 UTC</createdTime>
+<generatorID>DFCF5141-DE34-CF54-0DF1-49A1A770AAF5</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
+<referedAttribute>C8AA9013-F3D0-F6DE-257B-FFF1C8A7C2EC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DT_NASCIMENTO" id="80D9591E-2F9F-FEA1-BAE9-CA9FB25A887F">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:05:45 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,8 +64,7 @@
 <createdTime>2022-03-14 20:12:28 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

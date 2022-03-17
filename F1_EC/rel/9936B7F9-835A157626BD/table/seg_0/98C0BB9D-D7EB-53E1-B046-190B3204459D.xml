@@ -18,6 +18,8 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NM_NOME" id="677C7FC3-1352-9296-8AE6-C2BBE0E89F3E">
@@ -44,6 +46,21 @@
 <ownDataTypeParameters>155,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="COD_TIPO_CAD" id="50A846C9-667E-95E1-4A2F-5B7C217E7358">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 02:22:08 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DBE432C-0887-0227-588A-658F1EE34F26" referredColumn="659333F8-C9B3-3DC9-2F2E-E37BE740170D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3B14A739-10CF-2FD5-436D-A86DB6785F7D" name="T_EC_CADASTRO_PK">
@@ -56,6 +73,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="419E4ED0-E661-887B-D375-5A94225BA984"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDDC5C05-8752-1778-DA6B-E11D9DA3A737" name="T_EC_TIPO_CAD_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 02:22:08 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50A846C9-667E-95E1-4A2F-5B7C217E7358"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DBE432C-0887-0227-588A-658F1EE34F26" containerWithKeyObject="98C0BB9D-D7EB-53E1-B046-190B3204459D" localFKIndex="EDDC5C05-8752-1778-DA6B-E11D9DA3A737" name="T_EC_TIPO_CAD_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 02:22:08 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<referredTableLongName>T_EC_TIPO_CAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08084840-5CDB-6079-9687-343124A3D1FC</referredTableID>
+<keyObject>D0558955-48D6-81C2-AD8D-C558897A8E5C</keyObject>
+<referredKeyID>D0558955-48D6-81C2-AD8D-C558897A8E5C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_TIPO_CAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>659333F8-C9B3-3DC9-2F2E-E37BE740170D</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

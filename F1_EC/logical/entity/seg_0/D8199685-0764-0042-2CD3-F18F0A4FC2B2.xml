@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE09D3A8-5B24-C8FF-862B-369556BEE07D" name="T_EC_STATUS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8199685-0764-0042-2CD3-F18F0A4FC2B2" name="T_EC_GENERO">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 21:10:00 UTC</createdTime>
+<createdTime>2022-03-17 12:29:58 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
@@ -15,23 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_STATUS" id="27E8EB1C-FDB3-97B7-4B12-07A53AD187B7">
+<Attribute name="COD_GENERO" id="C8AA9013-F3D0-F6DE-257B-FFF1C8A7C2EC">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 21:10:28 UTC</createdTime>
+<createdTime>2022-03-17 12:30:06 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_STATUS" id="91D25689-3541-D06D-57D8-5F8CE960CDDE">
+<Attribute name="DS_GENERO" id="56FD8E06-B2B0-15A1-EF52-DCE9C98EDE99">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 21:10:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[1: Ativado, 2: Desativado]]></commentInRDBMS>
+<createdTime>2022-03-17 12:30:05 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
@@ -45,16 +44,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="03F74C76-2D5B-52C9-68B9-4F00C530C3F4" name="TC_EC_STATUS PK">
+<identifier id="2743CB03-F337-0E9E-F09C-8EF55DADB8EF" name="T_EC_GENERO PK">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 21:10:33 UTC</createdTime>
+<createdTime>2022-03-17 12:30:47 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>27E8EB1C-FDB3-97B7-4B12-07A53AD187B7</attributeRef>
+<attributeRef>C8AA9013-F3D0-F6DE-257B-FFF1C8A7C2EC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -4,8 +4,7 @@
 <createdTime>2022-03-09 23:38:36 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +20,7 @@
 <createdTime>2022-03-14 20:32:08 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,8 +33,7 @@
 <createdTime>2022-03-14 20:32:08 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,8 +45,7 @@
 <createdTime>2022-03-14 20:33:28 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,8 +60,7 @@
 <createdTime>2022-03-14 20:33:28 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -79,8 +74,7 @@
 <generatorID>308B2C12-68C5-6F4D-31CC-3ADF9734507D</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>FEA3F2FF-C116-D762-A9E9-BBF702CB27DA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,13 +89,13 @@
 <generatorID>2FDA3CD9-D5DA-4FF1-3960-FE9C57A5A5DE</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>D0ABE378-4CB3-0454-7844-7CCC69C779F6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_CADASTRO" id="F0BC9BB1-BCD6-CA09-DA13-CDF829DC8CB8">
@@ -110,8 +104,7 @@
 <generatorID>648B3EF0-F4BE-85A8-1AF4-728AEF248693</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>E3C49061-BADB-6954-8F74-B3EB9F484F14</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -126,8 +119,7 @@
 <generatorID>648B3EF0-F4BE-85A8-1AF4-728AEF248693</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>1922E542-B9C3-4EA6-BACC-36E219168C2C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -143,8 +135,7 @@
 <createdTime>2022-03-14 20:32:50 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

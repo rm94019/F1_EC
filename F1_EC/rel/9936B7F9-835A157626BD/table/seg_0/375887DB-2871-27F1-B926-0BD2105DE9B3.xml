@@ -55,5 +55,15 @@ INSERT INTO{table} (NM_CATEGORIA) VALUES(' Máquina de Corte e Solda');
 <colUsage columnID="C1F40295-8AA3-780B-0F9E-0E19D86633A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="BF6CA6CE-553D-77C6-9430-AF3874EDB67D" name="T_EC_CAT_MAQUINAS__UN">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 12:56:46 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C05525D-8385-60E4-8275-5C79D0EA9CFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

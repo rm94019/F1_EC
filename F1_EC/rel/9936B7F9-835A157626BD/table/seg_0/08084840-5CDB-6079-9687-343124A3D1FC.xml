@@ -1,20 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D21B375-1E07-24EA-7A36-01FE0BF18B57" name="T_EC_TIPO_CLIENTE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08084840-5CDB-6079-9687-343124A3D1FC" name="T_EC_TIPO_CAD">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>372F825E-712C-B031-1388-F0E1046D85CB</generatorID>
+<createdTime>2022-03-17 02:19:17 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
-<afterCreate><![CDATA[INSERT INTO {table} (COD_TIPO_CLI,DS_TIPO_CLIENTE) VALUES('C','CLIENTE');
-INSERT INTO {table} (COD_TIPO_CLI,DS_TIPO_CLIENTE) VALUES('P','POTENCIAL CLIENTE');]]></afterCreate>
-<shouldGeneratescript>true</shouldGeneratescript>
+<ordsAlias>table_20</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_TIPO_CLI" id="30255A92-383F-DE99-8098-4B327CDD9129">
+<Column name="COD_TIPO_CAD" id="659333F8-C9B3-3DC9-2F2E-E37BE740170D">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>4272FCA5-F9A4-12E6-3945-229DDA48D853</generatorID>
+<createdTime>2022-03-17 02:21:36 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,10 +19,9 @@ INSERT INTO {table} (COD_TIPO_CLI,DS_TIPO_CLIENTE) VALUES('P','POTENCIAL CLIENTE
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_TIPO_CLIENTE" id="289E755C-C6EC-60B5-18F4-2951485F9FE5">
+<Column name="DS_TIPO_CAD" id="E0BD64C5-522E-928E-5689-DBFB9A8F36FF">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>E38E4CDA-1B27-6A85-CAF8-230CEF73CD38</generatorID>
+<createdTime>2022-03-17 02:21:45 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -38,26 +33,25 @@ INSERT INTO {table} (COD_TIPO_CLI,DS_TIPO_CLIENTE) VALUES('P','POTENCIAL CLIENTE
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4B0EB961-83A7-3E23-EC22-B53C0BB2227F" name="T_EC_TIPO_CLIENTE_PK">
+<ind_PK_UK id="D0558955-48D6-81C2-AD8D-C558897A8E5C" name="T_EC_TIPO_CAD_PK">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
+<createdTime>2022-03-17 02:21:36 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="30255A92-383F-DE99-8098-4B327CDD9129"/>
+<colUsage columnID="659333F8-C9B3-3DC9-2F2E-E37BE740170D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="982EFE1F-14A7-16CD-4C6F-875B17DB3B4C" name="T_EC_TIPO_CLIENTE__UN">
+<ind_PK_UK id="75684595-2553-8D76-3ACD-C9A67BEF6583" name="T_EC_TIPO_CAD__UN">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-17 12:56:29 UTC</createdTime>
+<createdTime>2022-03-17 12:55:30 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="289E755C-C6EC-60B5-18F4-2951485F9FE5"/>
+<colUsage columnID="E0BD64C5-522E-928E-5689-DBFB9A8F36FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
