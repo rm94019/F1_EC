@@ -4,8 +4,7 @@
 <createdTime>2022-03-14 20:30:22 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,28 +15,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_MAQ_IOT" id="4A008729-B02B-6EFB-7616-E9893A2A7D4C">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-14 20:30:34 UTC</createdTime>
-<ownerDesignName>F1_EC</ownerDesignName>
-<engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_MAQUINA" id="53A1FC27-0370-7D3E-ED74-0D3CB1FFF34D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:31:08 UTC</createdTime>
 <generatorID>DA64616E-D14A-9032-9B38-22E59D4533E3</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>DDBC77A9-FE39-BF51-8DD6-66526E075D2E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -52,14 +36,38 @@
 <generatorID>8DE665FF-83F4-0FDB-7AC0-E288B28D5D82</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>048290AE-FE4E-3491-39C9-4716319B9215</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_ENTRADA" id="A408E671-796E-84A4-CE3E-857D472D729D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 22:49:52 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_SAIDA" id="8AEADE70-3B54-AE19-9FC2-0A149EE9A325">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 22:50:25 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -69,12 +77,10 @@
 <createdTime>2022-03-14 20:30:57 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4A008729-B02B-6EFB-7616-E9893A2A7D4C</attributeRef>
 <attributeRef>53A1FC27-0370-7D3E-ED74-0D3CB1FFF34D</attributeRef>
 <attributeRef>B01E6AA3-C8E4-6D5A-D2A6-FAA4EA436BCF</attributeRef>
 </usedAttributes>

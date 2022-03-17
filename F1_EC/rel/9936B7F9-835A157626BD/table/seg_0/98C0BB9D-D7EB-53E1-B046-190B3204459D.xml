@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98C0BB9D-D7EB-53E1-B046-190B3204459D" name="T_EC_CADASTRO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>7EB21DB3-98B1-D612-EB52-6EB62A124CB2</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CADASTRO" id="419E4ED0-E661-887B-D375-5A94225BA984">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_NOME" id="677C7FC3-1352-9296-8AE6-C2BBE0E89F3E">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>AEB82EAE-B3AE-161E-7B06-3C2FCB46CEA5</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_APELIDO_FANTASIA" id="604F384B-AA4C-89B5-C495-C74C84180277">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>1BB59B2A-9472-318D-C867-E009B41375CC</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B14A739-10CF-2FD5-436D-A86DB6785F7D" name="T_EC_CADASTRO_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>BD2CA5A0-0D63-8B73-2561-A2579444EF1B</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="419E4ED0-E661-887B-D375-5A94225BA984"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

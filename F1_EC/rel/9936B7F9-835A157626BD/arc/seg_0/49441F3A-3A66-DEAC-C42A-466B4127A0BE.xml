@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="49441F3A-3A66-DEAC-C42A-466B4127A0BE" name="ARC_CAD_CLI_PROPRIETARIO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>98C0BB9D-D7EB-53E1-B046-190B3204459D</table>
+<discriminatorColumn>419E4ED0-E661-887B-D375-5A94225BA984</discriminatorColumn>
+<fkeys>
+<fkeyID>6A5999B2-4A3E-0FE3-E963-A1A67402A9F1</fkeyID>
+<fkeyID>E4211880-51C7-CE56-55BA-A4B21A9EE1F0</fkeyID>
+</fkeys>
+</FKArc>

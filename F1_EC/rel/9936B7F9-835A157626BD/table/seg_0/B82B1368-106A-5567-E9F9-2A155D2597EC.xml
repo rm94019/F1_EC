@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B82B1368-106A-5567-E9F9-2A155D2597EC" name="T_EC_ENDERECO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>9D90F3DB-FD12-7584-61F9-ED22E5767CF2</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ENDERECO" id="4D68C3C5-17A7-014A-10D0-324C4A0607BD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>FEA3F2FF-C116-D762-A9E9-BBF702CB27DA</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_CADASTRO" id="DBD77516-BF4B-D97E-DDC0-6FFF2A6096F3">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>4BB1D5F9-B625-F158-30AF-E59949691363</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F1E7DC7-8CF0-7BAD-8174-9CB5103527D1" referredColumn="FC1E44E4-2D92-E320-2B1E-376940B0A5D0"/>
+</associations>
+</Column>
+<Column name="LOGRADOURO" id="BAC22110-7728-CBC7-A076-3CA40CFFAAC3">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>7F9BA992-A211-770D-273F-DFC7CB6FF3F5</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="92F01556-33B5-C035-FE8E-88F09FE52F86">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>E8CAE88A-2FB9-9B02-4B53-C883A97F0C66</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPLEMENTO" id="C8D5C74E-4103-AB74-395D-A27A12305A8C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>93A7B709-0075-AB3B-192C-060F0FB0C945</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="9438B18C-82E8-3225-FCD9-74E931F7984A">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>B7D0D783-26C2-790B-CE69-7DC8665EE1D9</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="5447BBFB-DEB2-919B-ABA0-1D076C997B9E">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>98516C7F-CE34-EEC5-A555-57046CF89E0E</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="886DE62A-0B37-1C8B-062E-1C344A6B9F13">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>D3B2D2B3-1310-16DF-D748-48547F0C00D1</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="5B8608FC-02D1-2495-0B4C-047E3096281A">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>CEEDE6F9-B57F-CD37-B80C-0005732DD269</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D094F43-83DA-E783-E944-F82768288FA1" name="T_EC_ENDERECO_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>655B131E-66B6-95D8-FBD0-2C3AF894CDE7</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D68C3C5-17A7-014A-10D0-324C4A0607BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F46DF709-542C-E861-3956-13786F3D693B" name="T_EC_EMPRESA_FKv2">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>D93A9474-8C4F-D9BE-2AC2-495182685AFD</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBD77516-BF4B-D97E-DDC0-6FFF2A6096F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

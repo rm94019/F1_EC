@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03F74AAF-0B22-9076-B9B9-0C246509C159" name="T_EC_STATUS_VISITA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>7B4B8F15-A4D7-EF5C-D48E-9B9C94B3F79B</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<afterCreate><![CDATA[INSERT INTO {table} (DS_STATUS_VISITA) VALUES ('CONCLUÍDO');
+INSERT INTO {table} (DS_STATUS_VISITA) VALUES ('PENDENTE');
+INSERT INTO {table} (DS_STATUS_VISITA) VALUES ('EM ABERTO');
+INSERT INTO {table} (DS_STATUS_VISITA) VALUES ('EM ATENDIMENTO');
+INSERT INTO {table} (DS_STATUS_VISITA) VALUES ('FREEZE');
+INSERT INTO {table} (DS_STATUS_VISITA) VALUES ('OUTROS');
+]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_STATUS_VISITA" id="2F57F932-C26F-B639-B319-594B51E2EA63">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[CONCLUÍDO, PENDENTE, EM ABERTO, EM ATENDIMENTO, FREEZE e OUTROS.]]></commentInRDBMS>
+<generatorID>1E990B40-CA3F-8421-A65D-5725C36C1482</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_STATUS_VISITA" id="FF4EB256-FF16-0405-D5F3-EB12419A212A">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>62EF801C-A485-26FC-72D2-0F37DAD352F1</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A210DEFE-2E71-E289-EB54-AB97F95EA56C" name="T_EC_STATUS_VISITA_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>B6EBC029-21D8-942B-7D27-D81659F066D0</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F57F932-C26F-B639-B319-594B51E2EA63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0875F885-690C-A09D-5BA6-C5D7703BF01E" name="T_EC_AGENDA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>24DDBC19-FBE2-FDD1-E9BC-F46638FA8AAB</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_AGENDA" id="565996A1-36A3-6E11-FC47-38762B5EBE37">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>9343026C-5CEF-9E1F-0FFD-81EEF5778391</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTHR_VISITA" id="27C0B9A8-FFE9-DF05-F810-06AF91CF0594">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>5111242A-BF00-8764-4AB1-31C4954D21BA</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VLR_DESCONTO" id="3B9F7842-263A-6910-F3DB-263AB7D2C20C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>49F2D0DB-0432-B8EB-D1ED-77F8048C538D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_RESUMO" id="AFDDDAE9-12BE-39B3-738C-5FCF77BD1BBD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>B7BD8D3E-D30D-708A-E197-5FE7798D5B01</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_ENDERECO" id="C8C3D1F3-CC0D-4756-0A95-059ACA08136F">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>ED580610-E70D-A513-267A-1ECB70902EAF</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D245C33-9FF4-57B8-63BA-61C332CA2174" referredColumn="4D68C3C5-17A7-014A-10D0-324C4A0607BD"/>
+</associations>
+</Column>
+<Column name="COD_CAT_VISITA" id="92B39D12-2088-33E1-96AC-73FD5A19FC04">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>5FCAB4CC-23F3-A9E8-0ABD-EDFFFB5483D3</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="960682F0-2675-A083-E110-2D7A129BE9A2" referredColumn="7FD906F3-4EDD-2E69-6D07-3EF31B083D2D"/>
+</associations>
+</Column>
+<Column name="COD_CAD_PROPRIETARIO" id="5B83DD7B-AF69-BE6C-508E-43318D38F5D9">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>F0BC9BB1-BCD6-CA09-DA13-CDF829DC8CB8</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CB45195-6AB3-E677-3B05-FE4BF5017744" referredColumn="F50C7A00-6276-E3B1-6A3A-DF6B93B4E111"/>
+</associations>
+</Column>
+<Column name="COD_CAD_EMPRESA" id="D8122786-E1A3-F234-CCE7-7B29C7135062">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>D5DF98F0-AEE9-AABB-0C65-32FDDBC8C2AA</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CB45195-6AB3-E677-3B05-FE4BF5017744" referredColumn="16AAC72E-7074-BFE5-FD80-92E01E3B5AD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0727ADD-526E-53A4-3659-2767820CEAAF" name="T_EC_AGENDA_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>359C9715-DAEB-FD66-85C1-CB8255D41FE1</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="565996A1-36A3-6E11-FC47-38762B5EBE37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1DC940B-CE60-049C-72D9-A7B7D1E8F650" name="T_EC_AGENDA__IDX">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>308B2C12-68C5-6F4D-31CC-3ADF9734507D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C8C3D1F3-CC0D-4756-0A95-059ACA08136F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D165E961-4398-BB97-6E75-A64172D1A74D" name="TC_EC_EMP_PROP_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>648B3EF0-F4BE-85A8-1AF4-728AEF248693</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B83DD7B-AF69-BE6C-508E-43318D38F5D9"/>
+<colUsage columnID="D8122786-E1A3-F234-CCE7-7B29C7135062"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AD7521C-9777-14E4-937E-12E57D453F07" name="T_EC_ENDERECO_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>308B2C12-68C5-6F4D-31CC-3ADF9734507D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8C3D1F3-CC0D-4756-0A95-059ACA08136F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8826E05D-BDA5-997B-DA8E-E1DD23D4A15F" name="T_EC_CAT_VISITA_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>2FDA3CD9-D5DA-4FF1-3960-FE9C57A5A5DE</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92B39D12-2088-33E1-96AC-73FD5A19FC04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

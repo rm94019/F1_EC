@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="MODELO_FISICO_EC" id="9936B7F9-C0D1-DC9D-325E-835A157626BD" mainViewID="7C06C6C0-B8B9-F6B3-5511-4D4DAB515979">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:08:06 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

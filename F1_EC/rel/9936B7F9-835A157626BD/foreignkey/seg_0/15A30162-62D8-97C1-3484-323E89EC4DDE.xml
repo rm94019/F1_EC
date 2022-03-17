@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15A30162-62D8-97C1-3484-323E89EC4DDE" containerWithKeyObject="BFF14744-54DF-D775-F19D-CEFE0771A857" localFKIndex="33A92956-6AAC-1227-8460-D57ABB4E2ABC" name="T_EC_RAMO_EMP_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>9D6910E0-B3D6-40F5-A164-3FFA2C0824CC</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<referredTableLongName>T_EC_RAMO_EMP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F39F5BBC-72DE-D947-1AA3-B39E502DE142</referredTableID>
+<keyObject>E1B4F93F-D0DE-68B5-06C7-5E28F91B702E</keyObject>
+<referredKeyID>E1B4F93F-D0DE-68B5-06C7-5E28F91B702E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_RAMO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

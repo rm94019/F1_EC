@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33C91A68-D609-C84C-7642-1970DFE87880" name="TC_EC_STATUS">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>FE09D3A8-5B24-C8FF-862B-369556BEE07D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<afterCreate><![CDATA[INSERT INTO {table} (DS_STATUS) VALUES('Ativado');
+INSERT INTO {table} (DS_STATUS) VALUES('Desativado');
+]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_STATUS" id="E75C94FE-BF7C-38CD-8BAC-84B78B3BCA3B">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>27E8EB1C-FDB3-97B7-4B12-07A53AD187B7</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_STATUS" id="90EE3BB6-C35E-161B-8540-C1F613A64AFD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[1: Ativado, 2: Desativado]]></commentInRDBMS>
+<generatorID>91D25689-3541-D06D-57D8-5F8CE960CDDE</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36E867F8-1C65-FE7B-E9B5-60EEF0287C90" name="TC_EC_STATUS_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>03F74C76-2D5B-52C9-68B9-4F00C530C3F4</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E75C94FE-BF7C-38CD-8BAC-84B78B3BCA3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

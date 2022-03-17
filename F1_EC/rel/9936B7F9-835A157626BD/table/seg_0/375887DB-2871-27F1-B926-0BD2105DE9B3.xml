@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="375887DB-2871-27F1-B926-0BD2105DE9B3" name="T_EC_CAT_MAQUINAS">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>1867F0B8-8134-3BBF-5225-6D4DC37980E8</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<afterCreate><![CDATA[INSERT INTO{table} (NM_CATEGORIA) VALUES('Injetora Hidráulica (plástico ou metal)');
+INSERT INTO{table} (NM_CATEGORIA) VALUES('Injetora Elétrica (plástico ou metal)');
+INSERT INTO{table} (NM_CATEGORIA) VALUES('Injetora Híbrida (plástico ou metal)');
+INSERT INTO{table} (NM_CATEGORIA) VALUES('Prensa');
+INSERT INTO{table} (NM_CATEGORIA) VALUES(' Máquina de Corte e Solda');
+]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CATEGORIA_MAQ" id="C1F40295-8AA3-780B-0F9E-0E19D86633A4">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>3502CFD6-FC8A-B02D-B702-C8922299CAC8</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CATEGORIA" id="7C05525D-8385-60E4-8275-5C79D0EA9CFE">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[categorias são:  Injetora Hidráulica (plástico ou metal); Injetora Elétrica (plástico ou metal); Injetora Híbrida (plástico ou metal); Prensa; Máquina de Corte e Solda]]></commentInRDBMS>
+<generatorID>439FCA79-D92D-DA31-4BB3-A4F4F942066B</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCB36E81-16B2-B358-ECC1-FE8B387422C1" name="T_EC_CAT_MAQUINAS_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>0E3481B3-0BD7-A719-3FC5-A1D5CCEB980E</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1F40295-8AA3-780B-0F9E-0E19D86633A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

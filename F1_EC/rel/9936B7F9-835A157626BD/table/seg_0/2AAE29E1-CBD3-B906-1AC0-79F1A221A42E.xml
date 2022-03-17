@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AAE29E1-CBD3-B906-1AC0-79F1A221A42E" name="T_EC_MAQUINA_IOT">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>D3EC15A7-C9AD-B24E-4B20-A733C558E25C</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_MAQUINA" id="10F851C3-768D-D57B-4044-7D13BB11A831">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>53A1FC27-0370-7D3E-ED74-0D3CB1FFF34D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A9839E4-F2B1-BBD4-4F0F-3B7B87F6FF5B" referredColumn="ACAA5C65-6D42-78D5-77BC-9ADFC372839D"/>
+</associations>
+</Column>
+<Column name="COD_IOT" id="BF6EE032-59C9-1B72-466C-59E2211D996E">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>B01E6AA3-C8E4-6D5A-D2A6-FAA4EA436BCF</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2AEF30E-B14D-F72C-4B6A-91AFFDB32592" referredColumn="69497BAE-19C3-6E47-890E-A0E713594E4D"/>
+</associations>
+</Column>
+<Column name="DT_ENTRADA" id="ABCAABBA-ACE1-276E-8C6B-EFD77B719F05">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>A408E671-796E-84A4-CE3E-857D472D729D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_SAIDA" id="F1165A9B-AFEA-C5BA-7F7A-AD0E5991BEAF">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>8AEADE70-3B54-AE19-9FC2-0A149EE9A325</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BB27BB3-497A-5AA0-79D5-8D968A3482D9" name="T_EC_MAQUINA_IOT_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>6CD0A46B-0438-A269-EF40-1C43B05F85E8</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10F851C3-768D-D57B-4044-7D13BB11A831"/>
+<colUsage columnID="BF6EE032-59C9-1B72-466C-59E2211D996E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77A31C19-1573-E389-5E4D-1B3C6D1769AE" name="T_EC_MAQUINAS_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>DA64616E-D14A-9032-9B38-22E59D4533E3</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10F851C3-768D-D57B-4044-7D13BB11A831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C64F748-2633-5B2C-E63E-BEAB4D48BFE8" name="T_EC_IOT_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>8DE665FF-83F4-0FDB-7AC0-E288B28D5D82</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF6EE032-59C9-1B72-466C-59E2211D996E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

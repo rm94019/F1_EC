@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5F449EB-41E4-0AD3-EA31-265DABF93334" name="T_EC_CAT_VISITA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>D827D95C-4904-CA0F-64DE-F34870BB2FAA</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<afterCreate><![CDATA[INSERT INTO {table} (NM_VISTA) VALUES('manutenção');
+INSERT INTO {table} (NM_VISTA) VALUES('suporte');
+INSERT INTO {table} (NM_VISTA) VALUES('consultoria');
+INSERT INTO {table} (NM_VISTA) VALUES('prospecção');
+INSERT INTO {table} (NM_VISTA) VALUES('reunião executiva');]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CAT_VISITA" id="7FD906F3-4EDD-2E69-6D07-3EF31B083D2D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Algumas visitas são cobradas dos clientes (manutenção, suporte, consultoria) e descontos podem ser concedidos. Visitas de prospecção e reunião executiva não têm investimento a ser feito pela empresa.]]></commentInRDBMS>
+<generatorID>D0ABE378-4CB3-0454-7844-7CCC69C779F6</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_VISITA" id="59DB76EE-5AC9-B4D3-CE4A-44BBAEA5D37B">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>4A1498EB-C432-7787-A6B1-26883D897BB9</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7D6D5C8-BA09-3FDC-4AC5-68077A933A15" name="T_EC_CAT_VISITA_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>DEB5A95D-8730-35BF-AB0E-F4BF195BE349</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FD906F3-4EDD-2E69-6D07-3EF31B083D2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

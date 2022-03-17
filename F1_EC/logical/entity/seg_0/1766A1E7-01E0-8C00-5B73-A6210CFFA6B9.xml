@@ -4,8 +4,7 @@
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,13 +20,13 @@
 <createdTime>2022-03-14 21:22:37 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_AGENDA" id="EEAEBC00-8ADF-E7E2-188F-E3DCCCBC35A0">
 <createdBy>gamer</createdBy>
@@ -35,8 +34,7 @@
 <generatorID>F1C1F59C-74A4-F0A4-57E7-6DBF6C664EE9</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>9343026C-5CEF-9E1F-0FFD-81EEF5778391</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,8 +48,7 @@
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,8 +60,7 @@
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,22 +73,21 @@
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_LAUDO" id="36F7D756-3A13-BDE0-9AF5-D58385116B85">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -106,8 +101,7 @@
 <generatorID>F13EFA89-771A-BFBE-E63F-66761D4F9209</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>1E990B40-CA3F-8421-A65D-5725C36C1482</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -123,8 +117,7 @@
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F39F5BBC-72DE-D947-1AA3-B39E502DE142" name="T_EC_RAMO_EMP">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>506BA336-40AF-EE94-D218-1B01B39B6562</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<afterCreate><![CDATA[INSERT INTO {table} (NM_RAMO) VALUES('INDUSTRIA ALIMENTOS');
+INSERT INTO {table} (NM_RAMO) VALUES('METALURGICA');
+INSERT INTO {table} (NM_RAMO) VALUES('INDUSTRIA EMBALAGENS');]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_RAMO" id="FB258912-9B3A-00CE-02A6-F273880E2613">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>B6DE1BCC-697A-6D5A-6EAC-D228BB43F188</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_RAMO" id="CA32A2B1-2369-BC28-798F-674FBE3874A3">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>E32CAD1C-AB6A-3F25-F7A0-2613DF381D7A</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1B4F93F-D0DE-68B5-06C7-5E28F91B702E" name="T_EC_RAMO_EMP_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>73B2C667-B6DC-7A0B-7AF9-82B187F7DC98</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB258912-9B3A-00CE-02A6-F273880E2613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
