@@ -8,22 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_MAQUINA" id="10F851C3-768D-D57B-4044-7D13BB11A831">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>53A1FC27-0370-7D3E-ED74-0D3CB1FFF34D</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6A9839E4-F2B1-BBD4-4F0F-3B7B87F6FF5B" referredColumn="ACAA5C65-6D42-78D5-77BC-9ADFC372839D"/>
-</associations>
-</Column>
 <Column name="COD_IOT" id="BF6EE032-59C9-1B72-466C-59E2211D996E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
@@ -38,6 +22,22 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B2AEF30E-B14D-F72C-4B6A-91AFFDB32592" referredColumn="69497BAE-19C3-6E47-890E-A0E713594E4D"/>
+</associations>
+</Column>
+<Column name="COD_MAQUINA" id="10F851C3-768D-D57B-4044-7D13BB11A831">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>53A1FC27-0370-7D3E-ED74-0D3CB1FFF34D</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A9839E4-F2B1-BBD4-4F0F-3B7B87F6FF5B" referredColumn="ACAA5C65-6D42-78D5-77BC-9ADFC372839D"/>
 </associations>
 </Column>
 <Column name="DT_ENTRADA" id="ABCAABBA-ACE1-276E-8C6B-EFD77B719F05">
@@ -63,6 +63,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="COD_CADASTRO" id="8D606618-C83B-90C1-79D2-8016E5A8B256">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 18:18:37 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A9839E4-F2B1-BBD4-4F0F-3B7B87F6FF5B" referredColumn="D869FEFB-43C0-8714-B8F4-F0723948A40E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3BB27BB3-497A-5AA0-79D5-8D968A3482D9" name="T_EC_MAQUINA_IOT_PK">
@@ -87,6 +102,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="10F851C3-768D-D57B-4044-7D13BB11A831"/>
+<colUsage columnID="8D606618-C83B-90C1-79D2-8016E5A8B256"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="0C64F748-2633-5B2C-E63E-BEAB4D48BFE8" name="T_EC_IOT_FK">

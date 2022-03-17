@@ -24,22 +24,6 @@
 <colAssociation fkAssociation="E4211880-51C7-CE56-55BA-A4B21A9EE1F0" referredColumn="419E4ED0-E661-887B-D375-5A94225BA984"/>
 </associations>
 </Column>
-<Column name="COD_TIPO_CLI" id="439A2EB8-FFD0-22D4-0E4B-FF8546ACAEF7">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>A269DF66-66F1-2BCF-CD24-5F647528D341</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0FFBC192-702B-7B63-8CCC-49C37AD3767E" referredColumn="30255A92-383F-DE99-8098-4B327CDD9129"/>
-</associations>
-</Column>
 <Column name="NR_CNPJ" id="E0B62AB5-0F5E-97C6-1989-EEECE3D1DA85">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
@@ -93,6 +77,21 @@
 <colAssociation fkAssociation="15A30162-62D8-97C1-3484-323E89EC4DDE" referredColumn="FB258912-9B3A-00CE-02A6-F273880E2613"/>
 </associations>
 </Column>
+<Column name="COD_TIPO_CLI" id="BE7BA3AD-DEC4-BBE1-2D2B-90DC15526F4C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 21:31:39 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F35E09D-29B3-B48E-170E-F19612CBF64F" referredColumn="30255A92-383F-DE99-8098-4B327CDD9129"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B2323E43-B442-E322-CFD9-607ADA4B3584" name="T_EC_EMPRESA_PK">
@@ -114,9 +113,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>DFF8678A-FD2D-C93B-3B61-BFEADD51A74D</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="439A2EB8-FFD0-22D4-0E4B-FF8546ACAEF7"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="14031211-7529-BB04-F829-31AD8EE39BE2" name="T_EC_CADASTRO_FK">
 <createdBy>gamer</createdBy>
@@ -140,15 +136,15 @@
 <colUsage columnID="992B2151-6BCB-8BC5-5A60-06D49EF4B286"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A518DD5E-83B0-8A9D-B117-2E53F36A744E" name="T_EC_TIPO_CLIENTE_FK">
+<ind_PK_UK id="4EB46384-011C-95C5-D051-0A22E05C2195" name="T_EC_TIPO_CLIENTE_FK">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>DFF8678A-FD2D-C93B-3B61-BFEADD51A74D</generatorID>
+<createdTime>2022-03-17 21:31:39 UTC</createdTime>
+<generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="439A2EB8-FFD0-22D4-0E4B-FF8546ACAEF7"/>
+<colUsage columnID="BE7BA3AD-DEC4-BBE1-2D2B-90DC15526F4C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

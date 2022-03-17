@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FFBC192-702B-7B63-8CCC-49C37AD3767E" containerWithKeyObject="BFF14744-54DF-D775-F19D-CEFE0771A857" localFKIndex="A518DD5E-83B0-8A9D-B117-2E53F36A744E" name="T_EC_TIPO_CLIENTE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F35E09D-29B3-B48E-170E-F19612CBF64F" containerWithKeyObject="BFF14744-54DF-D775-F19D-CEFE0771A857" localFKIndex="4EB46384-011C-95C5-D051-0A22E05C2195" name="T_EC_TIPO_CLIENTE_FK">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>DFF8678A-FD2D-C93B-3B61-BFEADD51A74D</generatorID>
+<createdTime>2022-03-17 21:31:39 UTC</createdTime>
+<generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <referredTableLongName>T_EC_TIPO_CLIENTE</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
