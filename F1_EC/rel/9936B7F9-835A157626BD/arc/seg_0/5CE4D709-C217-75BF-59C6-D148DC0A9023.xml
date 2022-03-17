@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="5CE4D709-C217-75BF-59C6-D148DC0A9023" name="FKArc_3">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:03:51 UTC</createdTime>
+<comment><![CDATA[Discriminator para TIPO CLIENTE em T_EC_MAQUINAS. T_EC_EMPRESA nao possui trigger de discriminator]]></comment>
+<ownerDesignName>F1_EC</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>3D21B375-1E07-24EA-7A36-01FE0BF18B57</table>
+<discriminatorColumn>30255A92-383F-DE99-8098-4B327CDD9129</discriminatorColumn>
+<fkeys>
+<fkeyID>195D2D35-AE15-4B8E-8B4B-E1F3BB5971A7</fkeyID>
+<fkeyID>0FFBC192-702B-7B63-8CCC-49C37AD3767E</fkeyID>
+</fkeys>
+</FKArc>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7EA3ADD9-10E4-4BB2-6C8F-C103EC06BD46" containerWithKeyObject="2978FF6A-FCE2-CD2F-BC83-B20AD99A14C4" localFKIndex="F1B92FF6-5E5A-675E-C74C-90768EFC46BB" name="T_EC_FAB_MAQUINAS_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 14:40:55 UTC</createdTime>
+<generatorID>0E3481B3-0BD7-A719-3FC5-A1D5CCEB980E</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<referredTableLongName>T_EC_FAB_MAQUINAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DF63942-54F6-7135-4B03-CC5260DDF9AE</referredTableID>
+<keyObject>53FB9E14-BFAD-46B8-AFB0-0F2741615A48</keyObject>
+<referredKeyID>53FB9E14-BFAD-46B8-AFB0-0F2741615A48</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_FABRICANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

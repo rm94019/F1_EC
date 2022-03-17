@@ -42,7 +42,6 @@
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>83D79B14-0F46-A4A0-371D-82FE4C42668B</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -50,36 +49,11 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_FABRICANTE" id="AFC03343-BD24-75CB-74D7-47C98ECCE042">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>3017DE55-0A4F-1A30-E18C-A1E00218D022</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DS_PAIS_ORIGEM" id="8225A1EB-EDF1-1D8A-DCDC-7081E4414B95">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>15723791-EF2B-118D-9317-9CB17BB6C80E</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="NR_NUMERO_SERIE" id="D60D2341-7398-25D9-FCFB-D60AC890FC77">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>2837421F-AFC0-5FAC-BEB4-43B3B70BFAF0</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -92,7 +66,6 @@
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>69CC7AE6-1F83-BDB9-6384-E7BE2DF564D7</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -105,7 +78,6 @@
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>4C4ED8D8-764C-12F3-F78E-B6C56C46DB28</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -143,6 +115,50 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="EF68EC6C-107B-C011-FA44-048AD78A3C17" referredColumn="EEB2627E-D148-7764-EB6A-FF7923F09E72"/>
+</associations>
+</Column>
+<Column name="COD_FABRICANTE" id="0FA1F6D3-1CC8-2E30-1CE5-E8D83CFD4233">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 14:40:55 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EA3ADD9-10E4-4BB2-6C8F-C103EC06BD46" referredColumn="A16C1080-53C4-25F0-97F1-96F28FD01D84"/>
+</associations>
+</Column>
+<Column name="COD_TIPO_CLI" id="F0E89887-9DE6-DD90-2E84-E2CEEEE7D983">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:03:34 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="195D2D35-AE15-4B8E-8B4B-E1F3BB5971A7" referredColumn="30255A92-383F-DE99-8098-4B327CDD9129"/>
+</associations>
+</Column>
+<Column name="COD_PAIS" id="710B1D04-0F0A-A79B-996C-478D589D3582">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:21:23 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="051F8D4A-F8B7-A837-69BE-464A87E0DB2E" referredColumn="18F10505-D920-4C47-72E4-2B9DBF9810F8"/>
 </associations>
 </Column>
 </columns>
@@ -192,5 +208,45 @@
 <colUsage columnID="D6FED7F5-F314-2ABC-C872-4D68A417AA63"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="F1B92FF6-5E5A-675E-C74C-90768EFC46BB" name="T_EC_FAB_MAQUINAS_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 14:40:55 UTC</createdTime>
+<generatorID>0E3481B3-0BD7-A719-3FC5-A1D5CCEB980E</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FA1F6D3-1CC8-2E30-1CE5-E8D83CFD4233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F91E7DA-C8F1-2CD4-5D07-CBE759603B40" name="T_EC_TIPO_CLIENTE_FKv2">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:03:34 UTC</createdTime>
+<generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0E89887-9DE6-DD90-2E84-E2CEEEE7D983"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18938104-9692-1000-AF67-71B7B13B3C19" name="T_EC_PAIS_FKv2">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:21:23 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="710B1D04-0F0A-A79B-996C-478D589D3582"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="T_EC_MAQUINAS_CK_1" directorySegmentName="seg_0" id="D168FD78-2C5B-AA57-3199-AB8CE6774A15">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 14:50:03 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<rule><![CDATA[COD_TIPO_CLI='C']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

@@ -36,11 +36,11 @@
 <colAssociation fkAssociation="4F1E7DC7-8CF0-7BAD-8174-9CB5103527D1" referredColumn="FC1E44E4-2D92-E320-2B1E-376940B0A5D0"/>
 </associations>
 </Column>
-<Column name="LOGRADOURO" id="BAC22110-7728-CBC7-A076-3CA40CFFAAC3">
+<Column name="NM_LOGRADOURO" id="50E79D8F-AA57-2313-255A-E9A1E33A718E">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>7F9BA992-A211-770D-273F-DFC7CB6FF3F5</generatorID>
+<createdTime>2022-03-17 16:53:04 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -73,53 +73,20 @@
 <ownDataTypeParameters>75,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CEP" id="9438B18C-82E8-3225-FCD9-74E931F7984A">
+<Column name="CEP_CORREIOS" id="6B67DA3F-1039-6C50-89C9-E5540700EB1B">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>B7D0D783-26C2-790B-CE69-7DC8665EE1D9</generatorID>
+<createdTime>2022-03-17 15:18:11 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="BAIRRO" id="5447BBFB-DEB2-919B-ABA0-1D076C997B9E">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>98516C7F-CE34-EEC5-A555-57046CF89E0E</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CIDADE" id="886DE62A-0B37-1C8B-062E-1C344A6B9F13">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>D3B2D2B3-1310-16DF-D748-48547F0C00D1</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="UF" id="5B8608FC-02D1-2495-0B4C-047E3096281A">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>CEEDE6F9-B57F-CD37-B80C-0005732DD269</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69EA0399-21EA-69A8-0C50-E9B9FF98109C" referredColumn="0F68A52D-A0A9-0DA0-0369-B187782F168C"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -144,6 +111,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DBD77516-BF4B-D97E-DDC0-6FFF2A6096F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="825484F1-4FD0-EAB9-7C2D-8233AC3B5F7D" name="T_EC_CEP_CORREIOS_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:18:11 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B67DA3F-1039-6C50-89C9-E5540700EB1B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D84CC1B-5E8D-4AE3-BD04-9BF378D144F0" name="T_EC_FORNECEDOR_IOT">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 13:44:50 UTC</createdTime>
+<generatorID>372F825E-712C-B031-1388-F0E1046D85CB</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<ordsAlias>t_ec_tipo_clientev1</ordsAlias>
+<afterCreate><![CDATA[INSERT INTO {table} (DS_FORNECEDOR) VALUES('ENOVO');
+INSERT INTO {table} (DS_FORNECEDOR) VALUES('TIVE');
+INSERT INTO {table} (DS_FORNECEDOR) VALUES('SAMSARA');
+INSERT INTO {table} (DS_FORNECEDOR) VALUES('ARM');]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_FORNECEDOR_IOT" id="F7492C09-A837-EB8B-D630-60ABCAB2D00F">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 13:44:50 UTC</createdTime>
+<generatorID>4272FCA5-F9A4-12E6-3945-229DDA48D853</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_T_EC_TIPO_CLIENTEv1_COD_TIPO_CLI</notNullConstraintName>
+</Column>
+<Column name="DS_FORNECEDOR" id="BE0DCA46-5B06-36FE-FF31-A434B46C9C88">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 13:44:50 UTC</createdTime>
+<generatorID>E38E4CDA-1B27-6A85-CAF8-230CEF73CD38</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40D9BE69-DBB9-4889-4DA6-3D1C5305649E" name="T_EC_FORNECEDOR_IOT_COD_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 13:44:50 UTC</createdTime>
+<generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7492C09-A837-EB8B-D630-60ABCAB2D00F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44AB460C-D118-1D0A-2444-473057C021A9" name="T_EC_FORNECEDOR_IOT_DS_UN">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 13:44:50 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE0DCA46-5B06-36FE-FF31-A434B46C9C88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -24,6 +24,22 @@
 <colAssociation fkAssociation="E4211880-51C7-CE56-55BA-A4B21A9EE1F0" referredColumn="419E4ED0-E661-887B-D375-5A94225BA984"/>
 </associations>
 </Column>
+<Column name="COD_TIPO_CLI" id="439A2EB8-FFD0-22D4-0E4B-FF8546ACAEF7">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 23:09:05 UTC</createdTime>
+<generatorID>A269DF66-66F1-2BCF-CD24-5F647528D341</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FFBC192-702B-7B63-8CCC-49C37AD3767E" referredColumn="30255A92-383F-DE99-8098-4B327CDD9129"/>
+</associations>
+</Column>
 <Column name="NR_CNPJ" id="E0B62AB5-0F5E-97C6-1989-EEECE3D1DA85">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
@@ -75,22 +91,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="15A30162-62D8-97C1-3484-323E89EC4DDE" referredColumn="FB258912-9B3A-00CE-02A6-F273880E2613"/>
-</associations>
-</Column>
-<Column name="COD_TIPO_CLI" id="439A2EB8-FFD0-22D4-0E4B-FF8546ACAEF7">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>A269DF66-66F1-2BCF-CD24-5F647528D341</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0FFBC192-702B-7B63-8CCC-49C37AD3767E" referredColumn="30255A92-383F-DE99-8098-4B327CDD9129"/>
 </associations>
 </Column>
 </columns>

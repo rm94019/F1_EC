@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACCEFA66-89AE-2356-B922-EDFB422F9802" containerWithKeyObject="D6B4F816-432F-7EEF-D0D8-6055DEF2E488" localFKIndex="30832F25-D2D6-2F2B-9122-75170C1F48CB" name="T_EC_FORNECEDOR_IOT_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 13:45:45 UTC</createdTime>
+<generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<referredTableLongName>T_EC_FORNECEDOR_IOT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D84CC1B-5E8D-4AE3-BD04-9BF378D144F0</referredTableID>
+<keyObject>40D9BE69-DBB9-4889-4DA6-3D1C5305649E</keyObject>
+<referredKeyID>40D9BE69-DBB9-4889-4DA6-3D1C5305649E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_FORNECEDOR_IOT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

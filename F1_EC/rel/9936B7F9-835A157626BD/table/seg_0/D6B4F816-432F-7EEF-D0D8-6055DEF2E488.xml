@@ -18,6 +18,8 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NR_SERIE" id="41A4D567-61AD-0595-7E03-E71994EB85A6">
@@ -32,18 +34,6 @@
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_FORNECEDOR" id="B3B73AB9-03AA-9D9E-D262-54890BD3D64C">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 23:09:05 UTC</createdTime>
-<generatorID>EBDEC6F4-37D8-9090-1AC8-522998345D32</generatorID>
-<ownerDesignName>F1_EC</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="DT_INSTALACAO" id="BA9FCD45-2C68-D0F0-9918-7B1C3C00A7A5">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
@@ -54,6 +44,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_FORNECEDOR_IOT" id="FB6BA30A-5FE9-FF8A-0D9C-0D4AB52726E0">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 13:45:45 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACCEFA66-89AE-2356-B922-EDFB422F9802" referredColumn="F7492C09-A837-EB8B-D630-60ABCAB2D00F"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -67,6 +72,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="69497BAE-19C3-6E47-890E-A0E713594E4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30832F25-D2D6-2F2B-9122-75170C1F48CB" name="T_EC_FORNECEDOR_IOT_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 13:45:45 UTC</createdTime>
+<generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6BA30A-5FE9-FF8A-0D9C-0D4AB52726E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

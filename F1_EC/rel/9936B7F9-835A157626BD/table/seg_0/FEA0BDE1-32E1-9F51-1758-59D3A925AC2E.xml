@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEA0BDE1-32E1-9F51-1758-59D3A925AC2E" name="T_EC_PAIS">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:18:56 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<afterCreate><![CDATA[INSERT INTO {table} (NM_PAIS) VALUES('BRASIL');]]></afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PAIS" id="18F10505-D920-4C47-72E4-2B9DBF9810F8">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:19:18 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_PAIS" id="1303ADDF-85AD-51F4-DF00-275DFDDB545B">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:19:37 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D130D37-5974-08C7-D242-A15E10595F39" name="T_EC_PAIS_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 15:19:18 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18F10505-D920-4C47-72E4-2B9DBF9810F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BDF767A-D1AE-9F0D-2832-D5951133A496" name="T_EC_PAIS__UN">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-17 17:09:05 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1303ADDF-85AD-51F4-DF00-275DFDDB545B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
