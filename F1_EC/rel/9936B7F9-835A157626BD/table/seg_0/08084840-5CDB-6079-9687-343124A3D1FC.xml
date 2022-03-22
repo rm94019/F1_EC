@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_TIPO_CAD" id="659333F8-C9B3-3DC9-2F2E-E37BE740170D">
+<Column name="cod_tipo_cad" id="659333F8-C9B3-3DC9-2F2E-E37BE740170D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 02:21:36 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_TIPO_CAD" id="E0BD64C5-522E-928E-5689-DBFB9A8F36FF">
+<Column name="ds_tipo_cad" id="E0BD64C5-522E-928E-5689-DBFB9A8F36FF">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 02:21:45 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -33,7 +33,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D0558955-48D6-81C2-AD8D-C558897A8E5C" name="T_EC_TIPO_CAD_PK">
+<ind_PK_UK id="D0558955-48D6-81C2-AD8D-C558897A8E5C" name="t_ec_tipo_cad_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 02:21:36 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -44,7 +44,7 @@
 <colUsage columnID="659333F8-C9B3-3DC9-2F2E-E37BE740170D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="75684595-2553-8D76-3ACD-C9A67BEF6583" name="T_EC_TIPO_CAD__UN">
+<ind_PK_UK id="75684595-2553-8D76-3ACD-C9A67BEF6583" name="t_ec_tipo_cad__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:55:30 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

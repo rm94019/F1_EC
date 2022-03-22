@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2AEF30E-B14D-F72C-4B6A-91AFFDB32592" containerWithKeyObject="2AAE29E1-CBD3-B906-1AC0-79F1A221A42E" localFKIndex="0C64F748-2633-5B2C-E63E-BEAB4D48BFE8" name="T_EC_IOT_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2AEF30E-B14D-F72C-4B6A-91AFFDB32592" containerWithKeyObject="2AAE29E1-CBD3-B906-1AC0-79F1A221A42E" localFKIndex="0C64F748-2633-5B2C-E63E-BEAB4D48BFE8" name="t_ec_iot_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>8DE665FF-83F4-0FDB-7AC0-E288B28D5D82</generatorID>
@@ -10,7 +10,7 @@
 <keyObject>D9F0253D-C909-FAB2-A125-806FDB050027</keyObject>
 <referredKeyID>D9F0253D-C909-FAB2-A125-806FDB050027</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>COD_IOT</refColNames>
+<refColNames>cod_iot</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

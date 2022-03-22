@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0488CF58-009E-AE5A-D69A-DA7AD93D268A" name="T_EC_EMPRESA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0488CF58-009E-AE5A-D69A-DA7AD93D268A" name="T_SAJK_EMPRESA">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-09 23:31:33 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,29 +15,27 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CADASTRO" id="51DEC9AD-75C8-8CE1-9EB6-738825537D35">
+<Attribute name="cod_cadastro" id="51DEC9AD-75C8-8CE1-9EB6-738825537D35">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:12:11 UTC</createdTime>
 <generatorID>11A3ED31-4B5D-FE2D-BE1E-075B3FC127FF</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>F2ADB8C9-E933-57F3-9635-4EE9C10500D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_CNPJ" id="B9E9AA64-FBF7-741B-CD68-A3D04D18187D">
+<Attribute name="nr_cnpj" id="B9E9AA64-FBF7-741B-CD68-A3D04D18187D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:06:29 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,13 +43,12 @@
 <dataTypePrecision>14</dataTypePrecision>
 <ownDataTypeParameters>,14,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_FUNDACAO" id="3965873C-D4E0-96F4-41E8-1DFBD2565660">
+<Attribute name="dt_fundacao" id="3965873C-D4E0-96F4-41E8-1DFBD2565660">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:06:29 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,13 +56,12 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_ORIGEM" id="6FC3A85E-381C-1C3D-C279-1D9B1839F83D">
+<Attribute name="ds_origem" id="6FC3A85E-381C-1C3D-C279-1D9B1839F83D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:06:29 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -75,47 +70,44 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_RAMO" id="30C9ECA3-51F5-EAC5-36B2-E2E3815D88CB">
+<Attribute name="cod_ramo" id="30C9ECA3-51F5-EAC5-36B2-E2E3815D88CB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:17:12 UTC</createdTime>
 <generatorID>9D6910E0-B3D6-40F5-A164-3FFA2C0824CC</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>B6DE1BCC-697A-6D5A-6EAC-D228BB43F188</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_TIPO_CLI" id="A269DF66-66F1-2BCF-CD24-5F647528D341">
+<Attribute name="cod_tipo_cli" id="A269DF66-66F1-2BCF-CD24-5F647528D341">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:02:30 UTC</createdTime>
 <generatorID>DFF8678A-FD2D-C93B-3B61-BFEADD51A74D</generatorID>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <referedAttribute>4272FCA5-F9A4-12E6-3945-229DDA48D853</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D5ACB254-E172-DEF6-5B4F-55E7C4C23525" name="T_EC_EMPRESA PK">
+<identifier id="D5ACB254-E172-DEF6-5B4F-55E7C4C23525" name="t_ec_empresa pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:12:23 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

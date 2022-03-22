@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1867F0B8-8134-3BBF-5225-6D4DC37980E8" name="T_EC_CAT_MAQUINAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1867F0B8-8134-3BBF-5225-6D4DC37980E8" name="T_SAJK_CAT_MAQUINAS">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-09 23:50:28 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,13 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CATEGORIA_MAQ" id="3502CFD6-FC8A-B02D-B702-C8922299CAC8">
+<Attribute name="cod_categoria_maq" id="3502CFD6-FC8A-B02D-B702-C8922299CAC8">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:27:30 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,13 +28,12 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_CATEGORIA" id="439FCA79-D92D-DA31-4BB3-A4F4F942066B">
+<Attribute name="nm_categoria" id="439FCA79-D92D-DA31-4BB3-A4F4F942066B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:27:49 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,13 +43,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0E3481B3-0BD7-A719-3FC5-A1D5CCEB980E" name="T_EC_CAT_MAQUINAS PK">
+<identifier id="0E3481B3-0BD7-A719-3FC5-A1D5CCEB980E" name="t_ec_cat_maquinas pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:27:37 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
-<item key="C9F62FA0-20D6-48F5-5213-069A8802888A" value="true"/>
-<item key="952E0714-DCE1-7746-3F3B-0CD6E36B822C" value="true"/>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

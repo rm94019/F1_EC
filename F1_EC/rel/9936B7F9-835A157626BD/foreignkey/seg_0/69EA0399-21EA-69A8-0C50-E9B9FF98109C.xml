@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69EA0399-21EA-69A8-0C50-E9B9FF98109C" containerWithKeyObject="B82B1368-106A-5567-E9F9-2A155D2597EC" localFKIndex="825484F1-4FD0-EAB9-7C2D-8233AC3B5F7D" name="T_EC_CEP_CORREIOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69EA0399-21EA-69A8-0C50-E9B9FF98109C" containerWithKeyObject="B82B1368-106A-5567-E9F9-2A155D2597EC" localFKIndex="825484F1-4FD0-EAB9-7C2D-8233AC3B5F7D" name="t_ec_cep_correios_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:18:11 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -9,7 +9,7 @@
 <keyObject>DB2BD34D-F199-72B7-89FB-376A89007146</keyObject>
 <referredKeyID>DB2BD34D-F199-72B7-89FB-376A89007146</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>COD_CEP_CORREIOS</refColNames>
+<refColNames>cep_correios</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

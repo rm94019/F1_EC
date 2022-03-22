@@ -12,7 +12,7 @@ INSERT INTO {table} (NM_RAMO) VALUES('INDUSTRIA EMBALAGENS');]]></afterCreate>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_RAMO" id="FB258912-9B3A-00CE-02A6-F273880E2613">
+<Column name="cod_ramo" id="FB258912-9B3A-00CE-02A6-F273880E2613">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>B6DE1BCC-697A-6D5A-6EAC-D228BB43F188</generatorID>
@@ -26,7 +26,7 @@ INSERT INTO {table} (NM_RAMO) VALUES('INDUSTRIA EMBALAGENS');]]></afterCreate>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_RAMO" id="CA32A2B1-2369-BC28-798F-674FBE3874A3">
+<Column name="nm_ramo" id="CA32A2B1-2369-BC28-798F-674FBE3874A3">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>E32CAD1C-AB6A-3F25-F7A0-2613DF381D7A</generatorID>
@@ -40,7 +40,7 @@ INSERT INTO {table} (NM_RAMO) VALUES('INDUSTRIA EMBALAGENS');]]></afterCreate>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E1B4F93F-D0DE-68B5-06C7-5E28F91B702E" name="T_EC_RAMO_EMP_PK">
+<ind_PK_UK id="E1B4F93F-D0DE-68B5-06C7-5E28F91B702E" name="t_ec_ramo_emp_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>73B2C667-B6DC-7A0B-7AF9-82B187F7DC98</generatorID>
@@ -52,7 +52,7 @@ INSERT INTO {table} (NM_RAMO) VALUES('INDUSTRIA EMBALAGENS');]]></afterCreate>
 <colUsage columnID="FB258912-9B3A-00CE-02A6-F273880E2613"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1195D50D-47BB-192F-A865-A928D8D956E4" name="T_EC_RAMO_EMP__UN">
+<ind_PK_UK id="1195D50D-47BB-192F-A865-A928D8D956E4" name="t_ec_ramo_emp__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:55:54 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

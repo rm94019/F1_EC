@@ -14,7 +14,7 @@ INSERT INTO {table} (DS_FORNECEDOR) VALUES('ARM');]]></afterCreate>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_FORNECEDOR_IOT" id="F7492C09-A837-EB8B-D630-60ABCAB2D00F">
+<Column name="cod_fornecedor_iot" id="F7492C09-A837-EB8B-D630-60ABCAB2D00F">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 13:44:50 UTC</createdTime>
 <generatorID>4272FCA5-F9A4-12E6-3945-229DDA48D853</generatorID>
@@ -29,7 +29,7 @@ INSERT INTO {table} (DS_FORNECEDOR) VALUES('ARM');]]></afterCreate>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_T_EC_TIPO_CLIENTEv1_COD_TIPO_CLI</notNullConstraintName>
 </Column>
-<Column name="DS_FORNECEDOR" id="BE0DCA46-5B06-36FE-FF31-A434B46C9C88">
+<Column name="ds_fornecedor" id="BE0DCA46-5B06-36FE-FF31-A434B46C9C88">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 13:44:50 UTC</createdTime>
 <generatorID>E38E4CDA-1B27-6A85-CAF8-230CEF73CD38</generatorID>
@@ -44,7 +44,7 @@ INSERT INTO {table} (DS_FORNECEDOR) VALUES('ARM');]]></afterCreate>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="40D9BE69-DBB9-4889-4DA6-3D1C5305649E" name="T_EC_FORNECEDOR_IOT_COD_PK">
+<ind_PK_UK id="40D9BE69-DBB9-4889-4DA6-3D1C5305649E" name="t_ec_fornecedor_iot_cod_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 13:44:50 UTC</createdTime>
 <generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
@@ -56,7 +56,7 @@ INSERT INTO {table} (DS_FORNECEDOR) VALUES('ARM');]]></afterCreate>
 <colUsage columnID="F7492C09-A837-EB8B-D630-60ABCAB2D00F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="44AB460C-D118-1D0A-2444-473057C021A9" name="T_EC_FORNECEDOR_IOT_DS_UN">
+<ind_PK_UK id="44AB460C-D118-1D0A-2444-473057C021A9" name="t_ec_fornecedor_iot_ds_un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 13:44:50 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

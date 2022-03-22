@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="337A2DEF-FEAE-81F5-2479-334692628B4B" name="T_EC_TIPO_CAD">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="337A2DEF-FEAE-81F5-2479-334692628B4B" name="T_SAJK_TIPO_CAD">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 02:19:50 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TIPO_CAD" id="2C51158B-2EB4-9035-CFB6-FC81267AC78B">
+<Attribute name="cod_tipo_cad" id="2C51158B-2EB4-9035-CFB6-FC81267AC78B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 02:19:58 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_TIPO_CAD" id="5D4D62D2-53C3-B4C4-4960-B33BA716FF22">
+<Attribute name="ds_tipo_cad" id="5D4D62D2-53C3-B4C4-4960-B33BA716FF22">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 02:20:22 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -44,7 +44,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4A142418-DC8F-DC96-70D6-6CF98CD94F89" name="T_EC_TIPO_CAD PK">
+<identifier id="4A142418-DC8F-DC96-70D6-6CF98CD94F89" name="t_ec_tipo_cad pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 02:20:18 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

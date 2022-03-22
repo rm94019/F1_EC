@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D827D95C-4904-CA0F-64DE-F34870BB2FAA" name="T_EC_CAT_VISITA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D827D95C-4904-CA0F-64DE-F34870BB2FAA" name="T_SAJK_CAT_VISITA">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-09 23:41:09 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CAT_VISITA" id="D0ABE378-4CB3-0454-7844-7CCC69C779F6">
+<Attribute name="cod_cat_visita" id="D0ABE378-4CB3-0454-7844-7CCC69C779F6">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:37:42 UTC</createdTime>
 <commentInRDBMS><![CDATA[Algumas visitas são cobradas dos clientes (manutenção, suporte, consultoria) e descontos podem ser concedidos. Visitas de prospecção e reunião executiva não têm investimento a ser feito pela empresa.]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_VISITA" id="4A1498EB-C432-7787-A6B1-26883D897BB9">
+<Attribute name="nm_visita" id="4A1498EB-C432-7787-A6B1-26883D897BB9">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:37:42 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -44,7 +44,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DEB5A95D-8730-35BF-AB0E-F4BF195BE349" name="T_EC_CAT_AGENDA PK">
+<identifier id="DEB5A95D-8730-35BF-AB0E-F4BF195BE349" name="t_ec_cat_agenda pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:38:26 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

@@ -14,7 +14,7 @@ INSERT INTO {table} (NM_VISTA) VALUES('reunião executiva');]]></afterCreate>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_CAT_VISITA" id="7FD906F3-4EDD-2E69-6D07-3EF31B083D2D">
+<Column name="cod_cat_visita" id="7FD906F3-4EDD-2E69-6D07-3EF31B083D2D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[Algumas visitas são cobradas dos clientes (manutenção, suporte, consultoria) e descontos podem ser concedidos. Visitas de prospecção e reunião executiva não têm investimento a ser feito pela empresa.]]></commentInRDBMS>
@@ -28,7 +28,7 @@ INSERT INTO {table} (NM_VISTA) VALUES('reunião executiva');]]></afterCreate>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_VISITA" id="59DB76EE-5AC9-B4D3-CE4A-44BBAEA5D37B">
+<Column name="nm_visita" id="59DB76EE-5AC9-B4D3-CE4A-44BBAEA5D37B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>4A1498EB-C432-7787-A6B1-26883D897BB9</generatorID>
@@ -42,7 +42,7 @@ INSERT INTO {table} (NM_VISTA) VALUES('reunião executiva');]]></afterCreate>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B7D6D5C8-BA09-3FDC-4AC5-68077A933A15" name="T_EC_CAT_VISITA_PK">
+<ind_PK_UK id="B7D6D5C8-BA09-3FDC-4AC5-68077A933A15" name="t_ec_cat_visita_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>DEB5A95D-8730-35BF-AB0E-F4BF195BE349</generatorID>
@@ -54,7 +54,7 @@ INSERT INTO {table} (NM_VISTA) VALUES('reunião executiva');]]></afterCreate>
 <colUsage columnID="7FD906F3-4EDD-2E69-6D07-3EF31B083D2D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A287B11D-C473-DF55-2FB1-B17EF3CFCDC2" name="T_EC_CAT_VISITA__UN">
+<ind_PK_UK id="A287B11D-C473-DF55-2FB1-B17EF3CFCDC2" name="t_ec_cat_visita__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:54:56 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

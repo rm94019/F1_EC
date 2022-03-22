@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F79118B3-D7FE-A95E-3EDF-18567ECBB1B6" name="T_EC_FAB_MAQUINAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F79118B3-D7FE-A95E-3EDF-18567ECBB1B6" name="T_SAJK_FAB_MAQUINAS">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:37:59 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_FABRICANTE" id="5AE48BC8-1A10-B8D0-2D18-15343F42B7A5">
+<Attribute name="cod_fabricante" id="5AE48BC8-1A10-B8D0-2D18-15343F42B7A5">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:37:59 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_FABRICANTE" id="6BE280CB-A6AC-A926-D201-C05B4FCF2E78">
+<Attribute name="nm_fabricante" id="6BE280CB-A6AC-A926-D201-C05B4FCF2E78">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:37:59 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -43,7 +43,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="564EFBE4-776B-30CE-D8D2-77A552160C30" name="T_EC_CAT_MAQUINAS PK">
+<identifier id="564EFBE4-776B-30CE-D8D2-77A552160C30" name="t_ec_cat_maquinas pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:37:59 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

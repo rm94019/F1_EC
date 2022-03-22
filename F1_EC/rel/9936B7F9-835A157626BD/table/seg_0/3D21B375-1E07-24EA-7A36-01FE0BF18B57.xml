@@ -11,7 +11,7 @@ INSERT INTO {table} (COD_TIPO_CLI,DS_TIPO_CLIENTE) VALUES('P','POTENCIAL CLIENTE
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_TIPO_CLI" id="30255A92-383F-DE99-8098-4B327CDD9129">
+<Column name="cod_tipo_cli" id="30255A92-383F-DE99-8098-4B327CDD9129">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>4272FCA5-F9A4-12E6-3945-229DDA48D853</generatorID>
@@ -23,7 +23,7 @@ INSERT INTO {table} (COD_TIPO_CLI,DS_TIPO_CLIENTE) VALUES('P','POTENCIAL CLIENTE
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_TIPO_CLIENTE" id="289E755C-C6EC-60B5-18F4-2951485F9FE5">
+<Column name="ds_tipo_cliente" id="289E755C-C6EC-60B5-18F4-2951485F9FE5">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>E38E4CDA-1B27-6A85-CAF8-230CEF73CD38</generatorID>
@@ -38,7 +38,7 @@ INSERT INTO {table} (COD_TIPO_CLI,DS_TIPO_CLIENTE) VALUES('P','POTENCIAL CLIENTE
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4B0EB961-83A7-3E23-EC22-B53C0BB2227F" name="T_EC_TIPO_CLIENTE_PK">
+<ind_PK_UK id="4B0EB961-83A7-3E23-EC22-B53C0BB2227F" name="t_ec_tipo_cliente_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>
@@ -50,7 +50,7 @@ INSERT INTO {table} (COD_TIPO_CLI,DS_TIPO_CLIENTE) VALUES('P','POTENCIAL CLIENTE
 <colUsage columnID="30255A92-383F-DE99-8098-4B327CDD9129"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="982EFE1F-14A7-16CD-4C6F-875B17DB3B4C" name="T_EC_TIPO_CLIENTE__UN">
+<ind_PK_UK id="982EFE1F-14A7-16CD-4C6F-875B17DB3B4C" name="t_ec_tipo_cliente__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:56:29 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

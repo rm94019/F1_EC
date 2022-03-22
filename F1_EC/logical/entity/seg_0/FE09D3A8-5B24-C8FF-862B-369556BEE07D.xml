@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE09D3A8-5B24-C8FF-862B-369556BEE07D" name="T_EC_STATUS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE09D3A8-5B24-C8FF-862B-369556BEE07D" name="T_SAJK_STATUS">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:10:00 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_STATUS" id="27E8EB1C-FDB3-97B7-4B12-07A53AD187B7">
+<Attribute name="cod_status" id="27E8EB1C-FDB3-97B7-4B12-07A53AD187B7">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:10:28 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_STATUS" id="91D25689-3541-D06D-57D8-5F8CE960CDDE">
+<Attribute name="ds_status" id="91D25689-3541-D06D-57D8-5F8CE960CDDE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:10:34 UTC</createdTime>
 <commentInRDBMS><![CDATA[1: Ativado, 2: Desativado]]></commentInRDBMS>
@@ -45,7 +45,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="03F74C76-2D5B-52C9-68B9-4F00C530C3F4" name="TC_EC_STATUS PK">
+<identifier id="03F74C76-2D5B-52C9-68B9-4F00C530C3F4" name="tc_ec_status pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:10:33 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

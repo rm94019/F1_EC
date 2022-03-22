@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F65CB27-6FA5-A87E-12C4-DE2B0D7D2A27" containerWithKeyObject="5DD99246-B443-7E5D-D5B5-695B0A192375" localFKIndex="34CEF749-2277-F876-F37F-91105B35FF3B" name="T_EC_GENERO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F65CB27-6FA5-A87E-12C4-DE2B0D7D2A27" containerWithKeyObject="5DD99246-B443-7E5D-D5B5-695B0A192375" localFKIndex="34CEF749-2277-F876-F37F-91105B35FF3B" name="t_ec_genero_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:24:44 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -9,7 +9,7 @@
 <keyObject>7BBB6CF8-18A6-6D92-1292-6AF11DB5B04A</keyObject>
 <referredKeyID>7BBB6CF8-18A6-6D92-1292-6AF11DB5B04A</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>COD_GENERO</refColNames>
+<refColNames>cod_genero</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

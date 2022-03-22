@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_GENERO" id="B9053604-76A0-E695-4888-2FD5B6DA3A39">
+<Column name="cod_genero" id="B9053604-76A0-E695-4888-2FD5B6DA3A39">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:23:18 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_GENERO" id="23DBE483-6018-6475-E555-C59F62CC8EBE">
+<Column name="ds_genero" id="23DBE483-6018-6475-E555-C59F62CC8EBE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:23:18 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -33,7 +33,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7BBB6CF8-18A6-6D92-1292-6AF11DB5B04A" name="T_EC_GENERO_PK">
+<ind_PK_UK id="7BBB6CF8-18A6-6D92-1292-6AF11DB5B04A" name="t_ec_genero_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:23:38 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -44,7 +44,7 @@
 <colUsage columnID="B9053604-76A0-E695-4888-2FD5B6DA3A39"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8D0F7487-E4FE-AEE5-6F09-3534AFFF843A" name="T_EC_GENERO__UN">
+<ind_PK_UK id="8D0F7487-E4FE-AEE5-6F09-3534AFFF843A" name="t_ec_genero__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:55:41 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

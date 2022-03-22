@@ -13,7 +13,7 @@ INSERT INTO {table} (DS_STATUS) VALUES('Desativado');
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_STATUS" id="E75C94FE-BF7C-38CD-8BAC-84B78B3BCA3B">
+<Column name="cod_status" id="E75C94FE-BF7C-38CD-8BAC-84B78B3BCA3B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>27E8EB1C-FDB3-97B7-4B12-07A53AD187B7</generatorID>
@@ -27,7 +27,7 @@ INSERT INTO {table} (DS_STATUS) VALUES('Desativado');
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_STATUS" id="90EE3BB6-C35E-161B-8540-C1F613A64AFD">
+<Column name="ds_status" id="90EE3BB6-C35E-161B-8540-C1F613A64AFD">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[1: Ativado, 2: Desativado]]></commentInRDBMS>
@@ -43,7 +43,7 @@ INSERT INTO {table} (DS_STATUS) VALUES('Desativado');
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="36E867F8-1C65-FE7B-E9B5-60EEF0287C90" name="TC_EC_STATUS_PK">
+<ind_PK_UK id="36E867F8-1C65-FE7B-E9B5-60EEF0287C90" name="tc_ec_status_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>03F74C76-2D5B-52C9-68B9-4F00C530C3F4</generatorID>
@@ -55,7 +55,7 @@ INSERT INTO {table} (DS_STATUS) VALUES('Desativado');
 <colUsage columnID="E75C94FE-BF7C-38CD-8BAC-84B78B3BCA3B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F3C6FD0A-7738-1C10-4753-92CD828ECA20" name="T_EC_STATUS__UN">
+<ind_PK_UK id="F3C6FD0A-7738-1C10-4753-92CD828ECA20" name="t_ec_status__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:55:59 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

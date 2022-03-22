@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_ENDERECO" id="4D68C3C5-17A7-014A-10D0-324C4A0607BD">
+<Column name="cod_endereco" id="4D68C3C5-17A7-014A-10D0-324C4A0607BD">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>FEA3F2FF-C116-D762-A9E9-BBF702CB27DA</generatorID>
@@ -22,7 +22,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_CADASTRO" id="DBD77516-BF4B-D97E-DDC0-6FFF2A6096F3">
+<Column name="cod_cadastro" id="DBD77516-BF4B-D97E-DDC0-6FFF2A6096F3">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>4BB1D5F9-B625-F158-30AF-E59949691363</generatorID>
@@ -31,14 +31,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="4F1E7DC7-8CF0-7BAD-8174-9CB5103527D1" referredColumn="FC1E44E4-2D92-E320-2B1E-376940B0A5D0"/>
 </associations>
 </Column>
-<Column name="NM_LOGRADOURO" id="50E79D8F-AA57-2313-255A-E9A1E33A718E">
+<Column name="nm_logradouro" id="50E79D8F-AA57-2313-255A-E9A1E33A718E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 16:53:04 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -50,7 +50,7 @@
 <ownDataTypeParameters>155,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NUMERO" id="92F01556-33B5-C035-FE8E-88F09FE52F86">
+<Column name="numero" id="92F01556-33B5-C035-FE8E-88F09FE52F86">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>E8CAE88A-2FB9-9B02-4B53-C883A97F0C66</generatorID>
@@ -62,7 +62,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COMPLEMENTO" id="C8D5C74E-4103-AB74-395D-A27A12305A8C">
+<Column name="complemento" id="C8D5C74E-4103-AB74-395D-A27A12305A8C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>93A7B709-0075-AB3B-192C-060F0FB0C945</generatorID>
@@ -75,7 +75,7 @@
 <ownDataTypeParameters>75,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CEP_CORREIOS" id="6B67DA3F-1039-6C50-89C9-E5540700EB1B">
+<Column name="cep_correios" id="6B67DA3F-1039-6C50-89C9-E5540700EB1B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:18:11 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -83,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -92,7 +92,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6D094F43-83DA-E783-E944-F82768288FA1" name="T_EC_ENDERECO_PK">
+<ind_PK_UK id="6D094F43-83DA-E783-E944-F82768288FA1" name="t_ec_endereco_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>655B131E-66B6-95D8-FBD0-2C3AF894CDE7</generatorID>
@@ -104,7 +104,7 @@
 <colUsage columnID="4D68C3C5-17A7-014A-10D0-324C4A0607BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F46DF709-542C-E861-3956-13786F3D693B" name="T_EC_EMPRESA_FKv2">
+<ind_PK_UK id="F46DF709-542C-E861-3956-13786F3D693B" name="t_ec_empresa_fkv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>D93A9474-8C4F-D9BE-2AC2-495182685AFD</generatorID>
@@ -115,7 +115,7 @@
 <colUsage columnID="DBD77516-BF4B-D97E-DDC0-6FFF2A6096F3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="825484F1-4FD0-EAB9-7C2D-8233AC3B5F7D" name="T_EC_CEP_CORREIOS_FK">
+<ind_PK_UK id="825484F1-4FD0-EAB9-7C2D-8233AC3B5F7D" name="t_ec_cep_correios_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:18:11 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

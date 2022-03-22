@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45A2D616-FCE3-4BD7-A5B1-686EB3F1C3A5" name="T_EC_PAIS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45A2D616-FCE3-4BD7-A5B1-686EB3F1C3A5" name="T_SAJK_PAIS">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:14:34 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,28 +15,26 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_PAIS" id="0981DB6D-F162-D54F-D57D-49B499431A35">
+<Attribute name="cod_pais" id="0981DB6D-F162-D54F-D57D-49B499431A35">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:14:42 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_PAIS" id="CC217E15-9137-D7E1-8114-FC35DBD602C6">
+<Attribute name="nm_pais" id="CC217E15-9137-D7E1-8114-FC35DBD602C6">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:14:41 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,4 +42,18 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFB97937-0535-0E38-4AD1-82879E5725A5" name="T_SAJK_PAIS PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-22 16:59:47 UTC</createdTime>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0981DB6D-F162-D54F-D57D-49B499431A35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

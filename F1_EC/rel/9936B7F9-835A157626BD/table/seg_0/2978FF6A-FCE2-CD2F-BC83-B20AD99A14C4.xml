@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_MAQUINA" id="ACAA5C65-6D42-78D5-77BC-9ADFC372839D">
+<Column name="cod_maquina" id="ACAA5C65-6D42-78D5-77BC-9ADFC372839D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>DDBC77A9-FE39-BF51-8DD6-66526E075D2E</generatorID>
@@ -22,7 +22,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_CADASTRO" id="D869FEFB-43C0-8714-B8F4-F0723948A40E">
+<Column name="cod_cadastro" id="D869FEFB-43C0-8714-B8F4-F0723948A40E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>D2AB2001-2DBF-15D3-79EB-6FE8872D7433</generatorID>
@@ -31,14 +31,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="84DC5020-E95E-74BB-BA51-AB4F14CD7B41" referredColumn="FC1E44E4-2D92-E320-2B1E-376940B0A5D0"/>
 </associations>
 </Column>
-<Column name="NM_MAQUINA" id="77E8216C-F8E4-ED45-BDA7-8D2062F9BC05">
+<Column name="nm_maquina" id="77E8216C-F8E4-ED45-BDA7-8D2062F9BC05">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>83D79B14-0F46-A4A0-371D-82FE4C42668B</generatorID>
@@ -50,7 +50,7 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NR_SERIE_MAQUINA" id="D60D2341-7398-25D9-FCFB-D60AC890FC77">
+<Column name="nr_serie_maquina" id="D60D2341-7398-25D9-FCFB-D60AC890FC77">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>2837421F-AFC0-5FAC-BEB4-43B3B70BFAF0</generatorID>
@@ -62,7 +62,7 @@
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NR_ANO_FAB" id="B95D287A-5848-DA8A-C5C3-545330A813C5">
+<Column name="nr_ano_fab" id="B95D287A-5848-DA8A-C5C3-545330A813C5">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>69CC7AE6-1F83-BDB9-6384-E7BE2DF564D7</generatorID>
@@ -80,7 +80,7 @@
 </rangeDef>
 </listOfRanges>
 </Column>
-<Column name="NR_VOLTAGEM" id="C9E0CA31-310D-8BCB-D5C1-B6A11C9B52E8">
+<Column name="nr_voltagem" id="C9E0CA31-310D-8BCB-D5C1-B6A11C9B52E8">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>4C4ED8D8-764C-12F3-F78E-B6C56C46DB28</generatorID>
@@ -96,7 +96,7 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_CATEGORIA_MAQ" id="9C01E0BE-ACFB-5430-20EA-E9012C233704">
+<Column name="cod_categoria_maq" id="9C01E0BE-ACFB-5430-20EA-E9012C233704">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>8F0BE76A-4383-5958-A274-F6213D33BAC1</generatorID>
@@ -105,14 +105,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="957EC1A8-6674-95A6-324E-E24D53FA1CB3" referredColumn="C1F40295-8AA3-780B-0F9E-0E19D86633A4"/>
 </associations>
 </Column>
-<Column name="COD_STATUS_MAQUINA" id="D6FED7F5-F314-2ABC-C872-4D68A417AA63">
+<Column name="cod_status_maquina" id="D6FED7F5-F314-2ABC-C872-4D68A417AA63">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>7CB1C07B-767B-1D05-C564-2D8413B23E6C</generatorID>
@@ -121,14 +121,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="EF68EC6C-107B-C011-FA44-048AD78A3C17" referredColumn="EEB2627E-D148-7764-EB6A-FF7923F09E72"/>
 </associations>
 </Column>
-<Column name="COD_FABRICANTE" id="0FA1F6D3-1CC8-2E30-1CE5-E8D83CFD4233">
+<Column name="cod_fabricante" id="0FA1F6D3-1CC8-2E30-1CE5-E8D83CFD4233">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:40:55 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -136,14 +136,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="7EA3ADD9-10E4-4BB2-6C8F-C103EC06BD46" referredColumn="A16C1080-53C4-25F0-97F1-96F28FD01D84"/>
 </associations>
 </Column>
-<Column name="COD_PAIS" id="710B1D04-0F0A-A79B-996C-478D589D3582">
+<Column name="cod_pais" id="710B1D04-0F0A-A79B-996C-478D589D3582">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:21:23 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -157,7 +157,7 @@
 <colAssociation fkAssociation="051F8D4A-F8B7-A837-69BE-464A87E0DB2E" referredColumn="18F10505-D920-4C47-72E4-2B9DBF9810F8"/>
 </associations>
 </Column>
-<Column name="COD_TIPO_CLI" id="EF09A6BC-DF9E-FC7A-B199-655CADE6B125">
+<Column name="cod_tipo_cli" id="EF09A6BC-DF9E-FC7A-B199-655CADE6B125">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 21:30:35 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -165,7 +165,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -174,7 +174,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="61C27E31-8008-98C3-928C-D904846228DA" name="T_EC_MAQUINAS_PK">
+<ind_PK_UK id="61C27E31-8008-98C3-928C-D904846228DA" name="t_ec_maquinas_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>AAFE961D-74D9-5ED8-FDF2-CFFA685FD48A</generatorID>
@@ -187,7 +187,7 @@
 <colUsage columnID="ACAA5C65-6D42-78D5-77BC-9ADFC372839D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="190A5B5E-AAEC-D4E8-6306-5E1BA32FFCB7" name="T_EC_MAQUINAS__UN">
+<ind_PK_UK id="190A5B5E-AAEC-D4E8-6306-5E1BA32FFCB7" name="t_ec_maquinas__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 22:41:41 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -197,7 +197,7 @@
 <colUsage columnID="D60D2341-7398-25D9-FCFB-D60AC890FC77"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7EE39E3A-E956-5D35-5BA8-0DAD5B810265" name="T_EC_EMPRESA_FK">
+<ind_PK_UK id="7EE39E3A-E956-5D35-5BA8-0DAD5B810265" name="t_ec_empresa_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>0800C429-F61F-A80E-4C81-E24D0B5589E9</generatorID>
@@ -208,7 +208,7 @@
 <colUsage columnID="D869FEFB-43C0-8714-B8F4-F0723948A40E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7BD5FAA5-7443-F1B0-DE15-FC721185A74D" name="T_EC_CAT_MAQUINAS_FK">
+<ind_PK_UK id="7BD5FAA5-7443-F1B0-DE15-FC721185A74D" name="t_ec_cat_maquinas_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>AADC87E4-A1E1-8D74-63BA-7C33E7891D69</generatorID>
@@ -219,7 +219,7 @@
 <colUsage columnID="9C01E0BE-ACFB-5430-20EA-E9012C233704"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3FF3D508-1C04-37D2-71D2-ED8FE8344684" name="T_EC_STATUS_MAQUINA_FK">
+<ind_PK_UK id="3FF3D508-1C04-37D2-71D2-ED8FE8344684" name="t_ec_status_maquina_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>F3EF1D5B-AB3E-62DF-5E41-CF07313BF8BB</generatorID>
@@ -230,7 +230,7 @@
 <colUsage columnID="D6FED7F5-F314-2ABC-C872-4D68A417AA63"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F1B92FF6-5E5A-675E-C74C-90768EFC46BB" name="T_EC_FAB_MAQUINAS_FK">
+<ind_PK_UK id="F1B92FF6-5E5A-675E-C74C-90768EFC46BB" name="t_ec_fab_maquinas_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:40:55 UTC</createdTime>
 <generatorID>0E3481B3-0BD7-A719-3FC5-A1D5CCEB980E</generatorID>
@@ -241,7 +241,7 @@
 <colUsage columnID="0FA1F6D3-1CC8-2E30-1CE5-E8D83CFD4233"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="18938104-9692-1000-AF67-71B7B13B3C19" name="T_EC_PAIS_FKv2">
+<ind_PK_UK id="18938104-9692-1000-AF67-71B7B13B3C19" name="t_ec_pais_fkv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:21:23 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -251,7 +251,7 @@
 <colUsage columnID="710B1D04-0F0A-A79B-996C-478D589D3582"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8773C8FE-2FDA-ADA6-FB0B-51B6E1C91D5B" name="T_EC_TIPO_CLIENTE_FKv2">
+<ind_PK_UK id="8773C8FE-2FDA-ADA6-FB0B-51B6E1C91D5B" name="t_ec_tipo_cliente_fkv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 21:30:35 UTC</createdTime>
 <generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>

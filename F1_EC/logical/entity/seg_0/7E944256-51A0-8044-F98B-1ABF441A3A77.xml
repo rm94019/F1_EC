@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E944256-51A0-8044-F98B-1ABF441A3A77" name="T_EC_MAQUINAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E944256-51A0-8044-F98B-1ABF441A3A77" name="T_SAJK_MAQUINAS">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-09 23:49:19 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_MAQUINA" id="DDBC77A9-FE39-BF51-8DD6-66526E075D2E">
+<Attribute name="cod_maquina" id="DDBC77A9-FE39-BF51-8DD6-66526E075D2E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:22:50 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CADASTRO" id="D2AB2001-2DBF-15D3-79EB-6FE8872D7433">
+<Attribute name="cod_cadastro" id="D2AB2001-2DBF-15D3-79EB-6FE8872D7433">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:12:24 UTC</createdTime>
 <generatorID>0800C429-F61F-A80E-4C81-E24D0B5589E9</generatorID>
@@ -36,7 +36,6 @@
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>51DEC9AD-75C8-8CE1-9EB6-738825537D35</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,21 +43,20 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_MAQUINA" id="83D79B14-0F46-A4A0-371D-82FE4C42668B">
+<Attribute name="nm_maquina" id="83D79B14-0F46-A4A0-371D-82FE4C42668B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:23:24 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_NUMERO_SERIE" id="2837421F-AFC0-5FAC-BEB4-43B3B70BFAF0">
+<Attribute name="nr_numero_serie" id="2837421F-AFC0-5FAC-BEB4-43B3B70BFAF0">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:23:24 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -72,7 +70,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_ANO_FAB" id="69CC7AE6-1F83-BDB9-6384-E7BE2DF564D7">
+<Attribute name="nr_ano_fab" id="69CC7AE6-1F83-BDB9-6384-E7BE2DF564D7">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:23:24 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -86,7 +84,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_VOLTAGEM" id="4C4ED8D8-764C-12F3-F78E-B6C56C46DB28">
+<Attribute name="nr_voltagem" id="4C4ED8D8-764C-12F3-F78E-B6C56C46DB28">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:23:25 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -100,7 +98,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CATEGORIA_MAQ" id="8F0BE76A-4383-5958-A274-F6213D33BAC1">
+<Attribute name="cod_categoria_maq" id="8F0BE76A-4383-5958-A274-F6213D33BAC1">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:27:43 UTC</createdTime>
 <generatorID>AADC87E4-A1E1-8D74-63BA-7C33E7891D69</generatorID>
@@ -113,9 +111,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_STATUS_MAQUINA" id="7CB1C07B-767B-1D05-C564-2D8413B23E6C">
+<Attribute name="cod_status_maquina" id="7CB1C07B-767B-1D05-C564-2D8413B23E6C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:16:05 UTC</createdTime>
 <generatorID>F3EF1D5B-AB3E-62DF-5E41-CF07313BF8BB</generatorID>
@@ -128,9 +126,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_FABRICANTE" id="622A32BC-53FF-10DA-E309-415117E6F892">
+<Attribute name="cod_fabricante" id="622A32BC-53FF-10DA-E309-415117E6F892">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:38:50 UTC</createdTime>
 <generatorID>D4C3B990-E4A3-3A1F-125A-DF501C119B2E</generatorID>
@@ -143,9 +141,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_TIPO_CLI" id="975508C6-30B0-DF57-E66E-7828655DFC38">
+<Attribute name="cod_tipo_cli" id="975508C6-30B0-DF57-E66E-7828655DFC38">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:07:19 UTC</createdTime>
 <generatorID>FA20A7EE-DF9F-11F7-434B-C71B6DD7CE3D</generatorID>
@@ -158,11 +156,26 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_pais" id="CE3652BF-B731-48EB-F944-45B9318360F4">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-22 16:59:51 UTC</createdTime>
+<generatorID>C6CC5B7D-A49B-4F5C-7348-53AFEDC885C1</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
+</engineerTo>
+<referedAttribute>0981DB6D-F162-D54F-D57D-49B499431A35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="AAFE961D-74D9-5ED8-FDF2-CFFA685FD48A" name="T_EC_MAQUINAS PK">
+<identifier id="AAFE961D-74D9-5ED8-FDF2-CFFA685FD48A" name="t_ec_maquinas pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:22:59 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -172,6 +185,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DDBC77A9-FE39-BF51-8DD6-66526E075D2E</attributeRef>
+<attributeRef>D2AB2001-2DBF-15D3-79EB-6FE8872D7433</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

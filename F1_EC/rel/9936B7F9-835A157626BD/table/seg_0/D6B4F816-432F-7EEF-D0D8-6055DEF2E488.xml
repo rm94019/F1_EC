@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_IOT" id="69497BAE-19C3-6E47-890E-A0E713594E4D">
+<Column name="cod_iot" id="69497BAE-19C3-6E47-890E-A0E713594E4D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>048290AE-FE4E-3491-39C9-4716319B9215</generatorID>
@@ -22,7 +22,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NR_SERIE" id="41A4D567-61AD-0595-7E03-E71994EB85A6">
+<Column name="nr_serie" id="41A4D567-61AD-0595-7E03-E71994EB85A6">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>8FFCD4E9-3190-E71C-5588-73E86313CC71</generatorID>
@@ -34,7 +34,7 @@
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_FORNECEDOR_IOT" id="FB6BA30A-5FE9-FF8A-0D9C-0D4AB52726E0">
+<Column name="cod_fornecedor_iot" id="FB6BA30A-5FE9-FF8A-0D9C-0D4AB52726E0">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 13:45:45 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -51,7 +51,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D9F0253D-C909-FAB2-A125-806FDB050027" name="T_EC_IOT_PK">
+<ind_PK_UK id="D9F0253D-C909-FAB2-A125-806FDB050027" name="t_ec_iot_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>0A8A1264-FE6E-1595-9341-5411F4C4583F</generatorID>
@@ -63,7 +63,7 @@
 <colUsage columnID="69497BAE-19C3-6E47-890E-A0E713594E4D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="30832F25-D2D6-2F2B-9122-75170C1F48CB" name="T_EC_FORNECEDOR_IOT_FK">
+<ind_PK_UK id="30832F25-D2D6-2F2B-9122-75170C1F48CB" name="t_ec_fornecedor_iot_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 13:45:45 UTC</createdTime>
 <generatorID>F6AA587B-F841-2333-9980-72E3531E4237</generatorID>

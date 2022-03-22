@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF4404FA-415D-7AD2-9A5A-556A69E6F8E0" name="T_EC_PROPRIETARIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF4404FA-415D-7AD2-9A5A-556A69E6F8E0" name="T_SAJK_PROPRIETARIO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-09 23:31:23 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CADASTRO" id="A4D6D8E1-9A25-0E45-E4EB-5B158863DA85">
+<Attribute name="cod_cadastro" id="A4D6D8E1-9A25-0E45-E4EB-5B158863DA85">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 17:49:00 UTC</createdTime>
 <generatorID>35CA76A4-3D17-7653-EFDB-FA34861D00EC</generatorID>
@@ -28,9 +28,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_GENERO" id="1BB46FC5-D911-1FC2-67F3-4C53D5F3F304">
+<Attribute name="cod_genero" id="1BB46FC5-D911-1FC2-67F3-4C53D5F3F304">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:30:51 UTC</createdTime>
 <generatorID>DFCF5141-DE34-CF54-0DF1-49A1A770AAF5</generatorID>
@@ -43,9 +43,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_NASCIMENTO" id="80D9591E-2F9F-FEA1-BAE9-CA9FB25A887F">
+<Attribute name="dt_nascimento" id="80D9591E-2F9F-FEA1-BAE9-CA9FB25A887F">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:05:45 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -59,7 +59,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CEC0AC5A-FC78-5D78-F9FB-370BB229113E" name="T_EC_PROPRIETARIO PK">
+<identifier id="CEC0AC5A-FC78-5D78-F9FB-370BB229113E" name="t_ec_proprietario pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:12:28 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

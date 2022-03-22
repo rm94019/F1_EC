@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_VISITA" id="23D8FA47-0705-2F7F-98D6-9FDEAD1AC118">
+<Column name="cod_visita" id="23D8FA47-0705-2F7F-98D6-9FDEAD1AC118">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>5D68AB90-14D6-C7FC-4BCD-56702A51C929</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_AGENDA" id="CAE40416-C08B-E9B2-BF90-3D0AFDA65D95">
+<Column name="cod_agenda" id="CAE40416-C08B-E9B2-BF90-3D0AFDA65D95">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>EEAEBC00-8ADF-E7E2-188F-E3DCCCBC35A0</generatorID>
@@ -28,14 +28,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="17F78A25-1291-2498-5181-27C7CFE6A393" referredColumn="565996A1-36A3-6E11-FC47-38762B5EBE37"/>
 </associations>
 </Column>
-<Column name="DTHR_ATENDIMENTO" id="4F4D4FD9-184D-1EF1-00ED-788C501C2DBA">
+<Column name="dthr_atendimento" id="4F4D4FD9-184D-1EF1-00ED-788C501C2DBA">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>95831CDB-225B-872E-4A67-AE6361E55326</generatorID>
@@ -46,7 +46,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DTHR_TERMINO" id="DA10B610-4318-2792-D19E-C9D54FA15ACB">
+<Column name="dthr_termino" id="DA10B610-4318-2792-D19E-C9D54FA15ACB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>E827D691-EF19-DA1B-2748-A0C67AE3FC51</generatorID>
@@ -58,7 +58,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="HORAS_VISITA" id="D99F5EA5-41E5-4655-721D-80C290354727">
+<Column name="horas_visita" id="D99F5EA5-41E5-4655-721D-80C290354727">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>258D0E05-609F-694D-53DB-91C367D42225</generatorID>
@@ -70,7 +70,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_LAUDO" id="B9085625-EC69-BB2B-C4A4-56A1150DDBC5">
+<Column name="ds_laudo" id="B9085625-EC69-BB2B-C4A4-56A1150DDBC5">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>36F7D756-3A13-BDE0-9AF5-D58385116B85</generatorID>
@@ -82,7 +82,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_STATUS_VISITA" id="0922C5C4-752B-51DF-22B0-D380DC00A220">
+<Column name="cod_status_visita" id="0922C5C4-752B-51DF-22B0-D380DC00A220">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>3C0FB483-05BE-72C3-F10D-AEEE94CE2C77</generatorID>
@@ -91,7 +91,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -100,7 +100,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="44EE844D-5FF3-3904-F9A0-C53076F29DB1" name="T_EC_VISITA_PK">
+<ind_PK_UK id="44EE844D-5FF3-3904-F9A0-C53076F29DB1" name="t_ec_visita_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>9EAC1F1D-6029-D597-B6BA-F0A667A6E82F</generatorID>
@@ -112,7 +112,7 @@
 <colUsage columnID="23D8FA47-0705-2F7F-98D6-9FDEAD1AC118"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="640F2BE5-88A7-7D1B-95B7-C94ACAF7A3A6" name="T_EC_VISITA__IDX">
+<ind_PK_UK id="640F2BE5-88A7-7D1B-95B7-C94ACAF7A3A6" name="t_ec_visita__idx">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -123,7 +123,7 @@
 <colUsage columnID="CAE40416-C08B-E9B2-BF90-3D0AFDA65D95"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CB0FF2E6-57BB-CF78-C98D-79BF7AB6DFC8" name="T_EC_STATUS_VISITA_FK">
+<ind_PK_UK id="CB0FF2E6-57BB-CF78-C98D-79BF7AB6DFC8" name="t_ec_status_visita_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>F13EFA89-771A-BFBE-E63F-66761D4F9209</generatorID>
@@ -134,7 +134,7 @@
 <colUsage columnID="0922C5C4-752B-51DF-22B0-D380DC00A220"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BE5130D5-B9E2-73A2-A0CA-B9AF0A72FD57" name="T_EC_AGENDA_FK">
+<ind_PK_UK id="BE5130D5-B9E2-73A2-A0CA-B9AF0A72FD57" name="t_ec_agenda_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>F1C1F59C-74A4-F0A4-57E7-6DBF6C664EE9</generatorID>

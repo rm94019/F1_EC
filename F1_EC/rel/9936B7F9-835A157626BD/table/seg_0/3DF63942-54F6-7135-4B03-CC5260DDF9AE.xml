@@ -14,7 +14,7 @@ INSERT INTO {table} (NM_FABRICANTE) VALUES('VOLVO');
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_FABRICANTE" id="A16C1080-53C4-25F0-97F1-96F28FD01D84">
+<Column name="cod_fabricante" id="A16C1080-53C4-25F0-97F1-96F28FD01D84">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:39:27 UTC</createdTime>
 <generatorID>3502CFD6-FC8A-B02D-B702-C8922299CAC8</generatorID>
@@ -27,7 +27,7 @@ INSERT INTO {table} (NM_FABRICANTE) VALUES('VOLVO');
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_FABRICANTE" id="DA5AC65B-5142-E304-3996-456EC87DD8EF">
+<Column name="nm_fabricante" id="DA5AC65B-5142-E304-3996-456EC87DD8EF">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:39:27 UTC</createdTime>
 <generatorID>439FCA79-D92D-DA31-4BB3-A4F4F942066B</generatorID>
@@ -41,7 +41,7 @@ INSERT INTO {table} (NM_FABRICANTE) VALUES('VOLVO');
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="53FB9E14-BFAD-46B8-AFB0-0F2741615A48" name="T_EC_FAB_MAQUINAS_PK">
+<ind_PK_UK id="53FB9E14-BFAD-46B8-AFB0-0F2741615A48" name="t_ec_fab_maquinas_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:39:27 UTC</createdTime>
 <generatorID>0E3481B3-0BD7-A719-3FC5-A1D5CCEB980E</generatorID>
@@ -53,7 +53,7 @@ INSERT INTO {table} (NM_FABRICANTE) VALUES('VOLVO');
 <colUsage columnID="A16C1080-53C4-25F0-97F1-96F28FD01D84"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D56364A4-DC63-A0E6-570B-E37BC69B5D9D" name="T_EC_FAB_MAQ_NOME_FAB_UN">
+<ind_PK_UK id="D56364A4-DC63-A0E6-570B-E37BC69B5D9D" name="t_ec_fab_maq_nome_fab_un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:39:27 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

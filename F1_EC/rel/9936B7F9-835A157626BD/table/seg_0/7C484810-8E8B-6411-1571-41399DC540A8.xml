@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_EMAIL" id="6AE771E2-0155-0E29-0AF3-7A81C71C2B0C">
+<Column name="cod_email" id="6AE771E2-0155-0E29-0AF3-7A81C71C2B0C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>8AFD2BAF-C883-AA3D-D8CD-136EDC261B81</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_CADASTRO" id="7AA41C76-A4FE-DD10-3401-E00716C0B64A">
+<Column name="cod_cadastro" id="7AA41C76-A4FE-DD10-3401-E00716C0B64A">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>FC029473-773A-4DBF-9C99-098E7924D89E</generatorID>
@@ -29,14 +29,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="C1085094-881E-34B6-533D-6C0353BABCC3" referredColumn="419E4ED0-E661-887B-D375-5A94225BA984"/>
 </associations>
 </Column>
-<Column name="EMAIL" id="0367BC20-C3EB-502A-2145-AFC00189511E">
+<Column name="email" id="0367BC20-C3EB-502A-2145-AFC00189511E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>9B6183C2-6D82-C5B3-C7CA-492241D1FB3D</generatorID>
@@ -48,7 +48,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_STATUS" id="7445AF86-936B-7DC6-FB17-7DA9ACE36F4B">
+<Column name="cod_status" id="7445AF86-936B-7DC6-FB17-7DA9ACE36F4B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>3982E4E8-F715-BA81-0CA3-DCB4A1DE52CF</generatorID>
@@ -57,7 +57,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -66,7 +66,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AE685B24-6B90-9BF6-BAB1-F3C062CBBDC6" name="T_EC_EMAIL_CAD_PK">
+<ind_PK_UK id="AE685B24-6B90-9BF6-BAB1-F3C062CBBDC6" name="t_ec_email_cad_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>5237F2E1-B780-D414-33FA-B234448BCCFF</generatorID>
@@ -79,7 +79,7 @@
 <colUsage columnID="7AA41C76-A4FE-DD10-3401-E00716C0B64A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9C74B38D-63FC-9A99-B09D-F46293AF83D3" name="TC_EC_STATUS_FK">
+<ind_PK_UK id="9C74B38D-63FC-9A99-B09D-F46293AF83D3" name="tc_ec_status_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>2D31799B-D00D-AEB6-6FDF-A84B7F64E0D3</generatorID>
@@ -90,7 +90,7 @@
 <colUsage columnID="7445AF86-936B-7DC6-FB17-7DA9ACE36F4B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E341C89C-30FE-549F-8D98-C18B97D22E47" name="T_EC_CADASTRO_FKv4">
+<ind_PK_UK id="E341C89C-30FE-549F-8D98-C18B97D22E47" name="t_ec_cadastro_fkv4">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>5E4E56D7-612A-9305-9919-F1DB6507FF8F</generatorID>

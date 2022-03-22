@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1766A1E7-01E0-8C00-5B73-A6210CFFA6B9" name="T_EC_VISITA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1766A1E7-01E0-8C00-5B73-A6210CFFA6B9" name="T_SAJK_VISITA">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_VISITA" id="5D68AB90-14D6-C7FC-4BCD-56702A51C929">
+<Attribute name="cod_visita" id="5D68AB90-14D6-C7FC-4BCD-56702A51C929">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:22:37 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_AGENDA" id="EEAEBC00-8ADF-E7E2-188F-E3DCCCBC35A0">
+<Attribute name="cod_agenda" id="EEAEBC00-8ADF-E7E2-188F-E3DCCCBC35A0">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-15 13:28:43 UTC</createdTime>
 <generatorID>F1C1F59C-74A4-F0A4-57E7-6DBF6C664EE9</generatorID>
@@ -41,9 +41,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DTHR_ATENDIMENTO" id="95831CDB-225B-872E-4A67-AE6361E55326">
+<Attribute name="dthr_atendimento" id="95831CDB-225B-872E-4A67-AE6361E55326">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -55,7 +55,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DTHR_TERMINO" id="E827D691-EF19-DA1B-2748-A0C67AE3FC51">
+<Attribute name="dthr_termino" id="E827D691-EF19-DA1B-2748-A0C67AE3FC51">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -68,7 +68,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="HORAS_VISITA" id="258D0E05-609F-694D-53DB-91C367D42225">
+<Attribute name="horas_visita" id="258D0E05-609F-694D-53DB-91C367D42225">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -82,7 +82,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_LAUDO" id="36F7D756-3A13-BDE0-9AF5-D58385116B85">
+<Attribute name="ds_laudo" id="36F7D756-3A13-BDE0-9AF5-D58385116B85">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -95,7 +95,7 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_STATUS_VISITA" id="3C0FB483-05BE-72C3-F10D-AEEE94CE2C77">
+<Attribute name="cod_status_visita" id="3C0FB483-05BE-72C3-F10D-AEEE94CE2C77">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:24:51 UTC</createdTime>
 <generatorID>F13EFA89-771A-BFBE-E63F-66761D4F9209</generatorID>
@@ -108,11 +108,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9EAC1F1D-6029-D597-B6BA-F0A667A6E82F" name="T_EC_AGENDA PK">
+<identifier id="9EAC1F1D-6029-D597-B6BA-F0A667A6E82F" name="t_ec_agenda pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:21:21 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

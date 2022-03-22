@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="372F825E-712C-B031-1388-F0E1046D85CB" name="T_EC_TIPO_CLIENTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="372F825E-712C-B031-1388-F0E1046D85CB" name="T_SAJK_TIPO_CLIENTE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:59:37 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TIPO_CLI" id="4272FCA5-F9A4-12E6-3945-229DDA48D853">
+<Attribute name="cod_tipo_cli" id="4272FCA5-F9A4-12E6-3945-229DDA48D853">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:00:54 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -28,14 +28,13 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_TIPO_CLIENTE" id="E38E4CDA-1B27-6A85-CAF8-230CEF73CD38">
+<Attribute name="ds_tipo_cliente" id="E38E4CDA-1B27-6A85-CAF8-230CEF73CD38">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:00:59 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,7 +43,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F6AA587B-F841-2333-9980-72E3531E4237" name="T_EC_TIPO_CLIENTE PK">
+<identifier id="F6AA587B-F841-2333-9980-72E3531E4237" name="t_ec_tipo_cliente pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 21:01:36 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

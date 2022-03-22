@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B7B2AF6-5B80-67CA-A8D2-0127ABADA433" name="T_EC_CEP_CORREIOS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B7B2AF6-5B80-67CA-A8D2-0127ABADA433" name="T_SAJK_CEP_CORREIOS">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:11:40 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CEP_CORREIOS" id="28454CE7-9C01-1641-3D20-114C119E5B11">
+<Attribute name="cod_cep_correios" id="28454CE7-9C01-1641-3D20-114C119E5B11">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:11:51 UTC</createdTime>
 <commentInRDBMS><![CDATA[Apenas números]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_LOGRADOURO" id="6D3058FD-0933-1E5C-C1C1-0BAC3CEB5087">
+<Attribute name="nm_logradouro" id="6D3058FD-0933-1E5C-C1C1-0BAC3CEB5087">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:12:01 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -43,7 +43,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_BAIRRO" id="418FA0D7-00A9-8F70-7FDC-4E71B1DE7D92">
+<Attribute name="nm_bairro" id="418FA0D7-00A9-8F70-7FDC-4E71B1DE7D92">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:12:43 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -57,37 +57,50 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_CIDADE" id="A85D021C-B875-D93F-885E-D86C423DE9F2">
+<Attribute name="nm_cidade" id="A85D021C-B875-D93F-885E-D86C423DE9F2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:12:56 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_UF" id="52A019BF-1DA9-A368-7C7E-563A8759942E">
+<Attribute name="nm_uf" id="52A019BF-1DA9-A368-7C7E-563A8759942E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:13:19 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cod_pais" id="BFBD8A31-169D-5AD9-56AD-915769BB9EDD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-22 16:59:51 UTC</createdTime>
+<generatorID>9CE71EB4-46E7-D573-540E-5317D55E9EB2</generatorID>
+<ownerDesignName>F1_EC</ownerDesignName>
+<engineerTo>
+<item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
+</engineerTo>
+<referedAttribute>0981DB6D-F162-D54F-D57D-49B499431A35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="84B7B84A-DD33-AF61-06E9-575C22BC551E" name="T_EC_CEP_CORREIOS PK">
+<identifier id="84B7B84A-DD33-AF61-06E9-575C22BC551E" name="t_ec_cep_correios pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:12:00 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

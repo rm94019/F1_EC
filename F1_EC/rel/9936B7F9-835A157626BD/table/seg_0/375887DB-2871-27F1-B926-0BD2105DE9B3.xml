@@ -15,7 +15,7 @@ INSERT INTO{table} (NM_CATEGORIA) VALUES(' Máquina de Corte e Solda');
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_CATEGORIA_MAQ" id="C1F40295-8AA3-780B-0F9E-0E19D86633A4">
+<Column name="cod_categoria_maq" id="C1F40295-8AA3-780B-0F9E-0E19D86633A4">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>3502CFD6-FC8A-B02D-B702-C8922299CAC8</generatorID>
@@ -28,7 +28,7 @@ INSERT INTO{table} (NM_CATEGORIA) VALUES(' Máquina de Corte e Solda');
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_CATEGORIA" id="7C05525D-8385-60E4-8275-5C79D0EA9CFE">
+<Column name="nm_categoria" id="7C05525D-8385-60E4-8275-5C79D0EA9CFE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[categorias são:  Injetora Hidráulica (plástico ou metal); Injetora Elétrica (plástico ou metal); Injetora Híbrida (plástico ou metal); Prensa; Máquina de Corte e Solda]]></commentInRDBMS>
@@ -43,7 +43,7 @@ INSERT INTO{table} (NM_CATEGORIA) VALUES(' Máquina de Corte e Solda');
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BCB36E81-16B2-B358-ECC1-FE8B387422C1" name="T_EC_CAT_MAQUINAS_PK">
+<ind_PK_UK id="BCB36E81-16B2-B358-ECC1-FE8B387422C1" name="t_ec_cat_maquinas_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>0E3481B3-0BD7-A719-3FC5-A1D5CCEB980E</generatorID>
@@ -55,7 +55,7 @@ INSERT INTO{table} (NM_CATEGORIA) VALUES(' Máquina de Corte e Solda');
 <colUsage columnID="C1F40295-8AA3-780B-0F9E-0E19D86633A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BF6CA6CE-553D-77C6-9430-AF3874EDB67D" name="T_EC_CAT_MAQUINAS__UN">
+<ind_PK_UK id="BF6CA6CE-553D-77C6-9430-AF3874EDB67D" name="t_ec_cat_maquinas__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:56:46 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

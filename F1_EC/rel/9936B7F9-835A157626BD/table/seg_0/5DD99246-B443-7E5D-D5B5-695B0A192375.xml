@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_CADASTRO" id="6D8D8265-8E4E-706F-0721-392224A336CC">
+<Column name="cod_cadastro" id="6D8D8265-8E4E-706F-0721-392224A336CC">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>A4D6D8E1-9A25-0E45-E4EB-5B158863DA85</generatorID>
@@ -17,14 +17,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="6A5999B2-4A3E-0FE3-E963-A1A67402A9F1" referredColumn="419E4ED0-E661-887B-D375-5A94225BA984"/>
 </associations>
 </Column>
-<Column name="DT_NASCIMENTO" id="FE83FADD-70D5-691B-584D-224BA7128173">
+<Column name="dt_nascimento" id="FE83FADD-70D5-691B-584D-224BA7128173">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>80D9591E-2F9F-FEA1-BAE9-CA9FB25A887F</generatorID>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_GENERO" id="DBDB88CC-BF3D-4E3C-12E5-61685AA7C94D">
+<Column name="cod_genero" id="DBDB88CC-BF3D-4E3C-12E5-61685AA7C94D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:24:44 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -52,7 +52,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="872B295B-5F07-9826-9D5D-0C4AA7438927" name="T_EC_PROPRIETARIO_PK">
+<ind_PK_UK id="872B295B-5F07-9826-9D5D-0C4AA7438927" name="t_ec_proprietario_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>CEC0AC5A-FC78-5D78-F9FB-370BB229113E</generatorID>
@@ -64,7 +64,7 @@
 <colUsage columnID="6D8D8265-8E4E-706F-0721-392224A336CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E64EFDB3-6D19-2B28-26EA-AAA89D0E4A48" name="T_EC_CADASTRO_FKv2">
+<ind_PK_UK id="E64EFDB3-6D19-2B28-26EA-AAA89D0E4A48" name="t_ec_cadastro_fkv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>35CA76A4-3D17-7653-EFDB-FA34861D00EC</generatorID>
@@ -75,7 +75,7 @@
 <colUsage columnID="6D8D8265-8E4E-706F-0721-392224A336CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="34CEF749-2277-F876-F37F-91105B35FF3B" name="T_EC_GENERO_FK">
+<ind_PK_UK id="34CEF749-2277-F876-F37F-91105B35FF3B" name="t_ec_genero_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:24:44 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

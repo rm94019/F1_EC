@@ -12,7 +12,7 @@ INSERT INTO {table} (DS_STATUS_MAQUINA) VALUES('Inativa');
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_STATUS_MAQUINA" id="EEB2627E-D148-7764-EB6A-FF7923F09E72">
+<Column name="cod_status_maquina" id="EEB2627E-D148-7764-EB6A-FF7923F09E72">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[1: Ativa, 2: Inativa]]></commentInRDBMS>
@@ -27,7 +27,7 @@ INSERT INTO {table} (DS_STATUS_MAQUINA) VALUES('Inativa');
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_STATUS_MAQUINA" id="59CC3FC0-B1A0-0FD2-EAB9-84E8D9715E87">
+<Column name="ds_status_maquina" id="59CC3FC0-B1A0-0FD2-EAB9-84E8D9715E87">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>82BAC1C9-6FFF-1BDA-7D6F-4FCB104FF6C1</generatorID>
@@ -41,7 +41,7 @@ INSERT INTO {table} (DS_STATUS_MAQUINA) VALUES('Inativa');
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="39FB557A-FD51-0E7A-3807-84BE8C3E201E" name="T_EC_STATUS_MAQUINA_PK">
+<ind_PK_UK id="39FB557A-FD51-0E7A-3807-84BE8C3E201E" name="t_ec_status_maquina_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>EC8AEC39-E5E7-91E0-7859-4086879436A8</generatorID>
@@ -53,7 +53,7 @@ INSERT INTO {table} (DS_STATUS_MAQUINA) VALUES('Inativa');
 <colUsage columnID="EEB2627E-D148-7764-EB6A-FF7923F09E72"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C52A8E38-3CF6-C6BB-FE53-83318D758845" name="T_EC_STATUS_MAQUINA__UN">
+<ind_PK_UK id="C52A8E38-3CF6-C6BB-FE53-83318D758845" name="t_ec_status_maquina__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 12:56:41 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

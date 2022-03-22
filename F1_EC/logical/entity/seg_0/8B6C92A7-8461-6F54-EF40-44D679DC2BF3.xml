@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B6C92A7-8461-6F54-EF40-44D679DC2BF3" name="T_EC_IOT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B6C92A7-8461-6F54-EF40-44D679DC2BF3" name="T_SAJK_IOT">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-09 23:51:36 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_IOT" id="048290AE-FE4E-3491-39C9-4716319B9215">
+<Attribute name="cod_iot" id="048290AE-FE4E-3491-39C9-4716319B9215">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:28:46 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_SERIE" id="8FFCD4E9-3190-E71C-5588-73E86313CC71">
+<Attribute name="nr_serie" id="8FFCD4E9-3190-E71C-5588-73E86313CC71">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:28:47 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_FORNECEDOR" id="EBDEC6F4-37D8-9090-1AC8-522998345D32">
+<Attribute name="nm_fornecedor" id="EBDEC6F4-37D8-9090-1AC8-522998345D32">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:28:47 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -54,7 +54,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_INSTALACAO" id="E8E97666-AB76-9361-1942-6AE81084B0F1">
+<Attribute name="dt_instalacao" id="E8E97666-AB76-9361-1942-6AE81084B0F1">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:28:47 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_FORNECEDOR_IOT" id="0533CBF0-6A65-EC83-7EF0-62CB19913CAE">
+<Attribute name="cod_fornecedor_iot" id="0533CBF0-6A65-EC83-7EF0-62CB19913CAE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 14:36:10 UTC</createdTime>
 <generatorID>2DA7042E-0B9E-03F5-0DF9-2F68AADA800F</generatorID>
@@ -79,11 +79,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0A8A1264-FE6E-1595-9341-5411F4C4583F" name="T_EC_IOT PK">
+<identifier id="0A8A1264-FE6E-1595-9341-5411F4C4583F" name="t_ec_iot pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-14 20:28:51 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

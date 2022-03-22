@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CEP_CORREIOS" id="0F68A52D-A0A9-0DA0-0369-B187782F168C">
+<Column name="cep_correios" id="0F68A52D-A0A9-0DA0-0369-B187782F168C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:16:23 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>8,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_LOGRADOURO" id="0F3CCDBA-95FB-8E98-BF8C-C2EE240A223F">
+<Column name="nm_logradouro" id="0F3CCDBA-95FB-8E98-BF8C-C2EE240A223F">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:16:57 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -31,7 +31,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_BAIRRO" id="A4BC7EDD-E820-8D65-36A4-A36E5C6C406B">
+<Column name="nm_bairro" id="A4BC7EDD-E820-8D65-36A4-A36E5C6C406B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:16:57 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -43,7 +43,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_CIDADE" id="B1945F0F-6184-D517-9DDF-BE301D515C74">
+<Column name="nm_cidade" id="B1945F0F-6184-D517-9DDF-BE301D515C74">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:16:57 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -54,7 +54,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_UF" id="C48C2E8F-5A33-CE6A-F3D4-D8F307AE96CF">
+<Column name="nm_uf" id="C48C2E8F-5A33-CE6A-F3D4-D8F307AE96CF">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:16:57 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -65,7 +65,7 @@
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_PAIS" id="EAC7DB74-17F5-2B9E-CA5B-EF4037BDC853">
+<Column name="cod_pais" id="EAC7DB74-17F5-2B9E-CA5B-EF4037BDC853">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:19:56 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -83,7 +83,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DB2BD34D-F199-72B7-89FB-376A89007146" name="T_EC_CEP_CORREIOS_PK">
+<ind_PK_UK id="DB2BD34D-F199-72B7-89FB-376A89007146" name="t_ec_cep_correios_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:17:24 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -94,7 +94,7 @@
 <colUsage columnID="0F68A52D-A0A9-0DA0-0369-B187782F168C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E174D034-AE3F-D143-0CAF-AEBEEC83D6DD" name="T_EC_PAIS_FK">
+<ind_PK_UK id="E174D034-AE3F-D143-0CAF-AEBEEC83D6DD" name="t_ec_pais_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:19:56 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

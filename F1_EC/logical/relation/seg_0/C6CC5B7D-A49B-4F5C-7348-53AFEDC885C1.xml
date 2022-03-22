@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_EMPRESA_MAQUINA" directorySegmentName="seg_0" id="0800C429-F61F-A80E-4C81-E24D0B5589E9">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_43" directorySegmentName="seg_0" id="C6CC5B7D-A49B-4F5C-7348-53AFEDC885C1">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-09 23:57:51 UTC</createdTime>
+<createdTime>2022-03-22 16:58:28 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
 <engineerTo>
 <item key="9936B7F9-C0D1-DC9D-325E-835A157626BD" value="true"/>
 </engineerTo>
-<sourcePk>D5ACB254-E172-DEF6-5B4F-55E7C4C23525</sourcePk>
+<sourcePk>DFB97937-0535-0E38-4AD1-82879E5725A5</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>0488CF58-009E-AE5A-D69A-DA7AD93D268A</sourceEntity>
+<sourceEntity>45A2D616-FCE3-4BD7-A5B1-686EB3F1C3A5</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>7E944256-51A0-8044-F98B-1ABF441A3A77</targetEntity>
 <transferable>true</transferable>

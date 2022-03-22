@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_TELEFONE" id="58F8816E-F10B-8EB3-9BC7-8D9CADC5A5D5">
+<Column name="cod_telefone" id="58F8816E-F10B-8EB3-9BC7-8D9CADC5A5D5">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>952C28B1-B1DD-6581-E5D7-6364C866D1EE</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_CADASTRO" id="9E3DD7D8-A1AB-E996-2321-B32CB0D520AB">
+<Column name="cod_cadastro" id="9E3DD7D8-A1AB-E996-2321-B32CB0D520AB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>40CD4675-0507-8C8B-20F7-880382F92689</generatorID>
@@ -29,14 +29,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="EAA183AC-8701-E2C3-8A43-37C53AAA9F49" referredColumn="419E4ED0-E661-887B-D375-5A94225BA984"/>
 </associations>
 </Column>
-<Column name="DDI" id="191F1375-1C4F-E663-7BEE-C0D343F732C7">
+<Column name="ddi" id="191F1375-1C4F-E663-7BEE-C0D343F732C7">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>5EE015E8-25DB-5576-8286-EFEEFE864068</generatorID>
@@ -49,7 +49,7 @@
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DDD" id="749183DB-50BD-B966-DB94-C537073589F7">
+<Column name="ddd" id="749183DB-50BD-B966-DB94-C537073589F7">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>85153B48-5241-79B2-8718-DE65E7682EAE</generatorID>
@@ -61,7 +61,7 @@
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TELEFONE" id="03935154-A802-69EE-7C60-4B854560EA71">
+<Column name="telefone" id="03935154-A802-69EE-7C60-4B854560EA71">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>6A61D436-7BCE-B952-B647-FD039698BD20</generatorID>
@@ -73,7 +73,7 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_STATUS" id="DB77F201-2057-6DF3-FC32-C10320FF547F">
+<Column name="cod_status" id="DB77F201-2057-6DF3-FC32-C10320FF547F">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>9EE1671D-5E0B-3679-FDC7-03FDE3BF790C</generatorID>
@@ -82,7 +82,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -91,7 +91,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2CB288C6-F5AA-9CB5-2844-38D0E602EFBE" name="T_EC_TELEFONE_CAD_PK">
+<ind_PK_UK id="2CB288C6-F5AA-9CB5-2844-38D0E602EFBE" name="t_ec_telefone_cad_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>605F0625-E1E3-12D4-AF5E-B46BF4CFDC32</generatorID>
@@ -104,7 +104,7 @@
 <colUsage columnID="9E3DD7D8-A1AB-E996-2321-B32CB0D520AB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="890611F1-9935-51F3-BE64-6BEA2C230411" name="TC_EC_STATUS_FKv2">
+<ind_PK_UK id="890611F1-9935-51F3-BE64-6BEA2C230411" name="tc_ec_status_fkv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>EAEACA26-E3E0-C367-EC15-9E9414E46F2B</generatorID>
@@ -115,7 +115,7 @@
 <colUsage columnID="DB77F201-2057-6DF3-FC32-C10320FF547F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="94696905-6CE4-2D6A-4460-92395F50DAF6" name="T_EC_CADASTRO_FKv3">
+<ind_PK_UK id="94696905-6CE4-2D6A-4460-92395F50DAF6" name="t_ec_cadastro_fkv3">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 23:09:05 UTC</createdTime>
 <generatorID>38DF4F89-4253-076F-3721-DF699277E8A4</generatorID>

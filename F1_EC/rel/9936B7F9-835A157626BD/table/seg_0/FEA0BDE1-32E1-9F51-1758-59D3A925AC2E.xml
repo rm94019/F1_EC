@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_PAIS" id="18F10505-D920-4C47-72E4-2B9DBF9810F8">
+<Column name="cod_pais" id="18F10505-D920-4C47-72E4-2B9DBF9810F8">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:19:18 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -21,7 +21,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NM_PAIS" id="1303ADDF-85AD-51F4-DF00-275DFDDB545B">
+<Column name="nm_pais" id="1303ADDF-85AD-51F4-DF00-275DFDDB545B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:19:37 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -34,7 +34,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4D130D37-5974-08C7-D242-A15E10595F39" name="T_EC_PAIS_PK">
+<ind_PK_UK id="4D130D37-5974-08C7-D242-A15E10595F39" name="t_ec_pais_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 15:19:18 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>
@@ -45,7 +45,7 @@
 <colUsage columnID="18F10505-D920-4C47-72E4-2B9DBF9810F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4BDF767A-D1AE-9F0D-2832-D5951133A496" name="T_EC_PAIS__UN">
+<ind_PK_UK id="4BDF767A-D1AE-9F0D-2832-D5951133A496" name="t_ec_pais__un">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-17 17:09:05 UTC</createdTime>
 <ownerDesignName>F1_EC</ownerDesignName>

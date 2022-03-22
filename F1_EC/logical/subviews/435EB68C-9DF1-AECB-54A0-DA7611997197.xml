@@ -46,7 +46,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="45A2D616-FCE3-4BD7-A5B1-686EB3F1C3A5" otype="Entity" vid="C6491427-2F89-6F55-532C-EFC56AA3A0E3">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1086" y="686" width="170" height="110"/>
+<bounds x="1268" y="676" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="506BA336-40AF-EE94-D218-1B01B39B6562" otype="Entity" vid="885C51AE-8CF7-F3C5-03BE-65D5CC609E0E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -285,8 +285,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1086" y="740"/>
-<point x="1007" y="740"/>
+<point x="1268" y="735"/>
+<point x="1007" y="735"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9D6910E0-B3D6-40F5-A164-3FFA2C0824CC" otype="Relation" vid_source="885C51AE-8CF7-F3C5-03BE-65D5CC609E0E" vid_target="82357E06-4B8A-5EF8-951C-B3019B8B0E7B">
@@ -305,6 +305,15 @@
 <points>
 <point x="1266" y="103"/>
 <point x="1266" y="143"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C6CC5B7D-A49B-4F5C-7348-53AFEDC885C1" otype="Relation" vid_source="C6491427-2F89-6F55-532C-EFC56AA3A0E3" vid_target="A61DD846-527E-7022-0718-6E2C59EDCF2E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1313" y="676"/>
+<point x="1313" y="353"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="CC370748-3986-962F-4AA5-78948D133480" otype="Relation" vid_source="90C3618E-0E21-71D4-C828-65B51C4F3F7E" vid_target="0A742514-59EE-808D-2BB4-DB02876B0253">
@@ -409,10 +418,6 @@
 </Connector>
 </connectors>
 <arcs>
-<Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="E076769C-EF0C-1948-571D-B5C87F305058" otype="Arc" vid="70E9F062-EB5E-9541-2E95-4CA72478BB56">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1048" y="384" width="264" height="135"/>
-</Arc>
 <Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="FBF23233-7709-51BD-86C3-D5BB12C34734" otype="Arc" vid="E4789C6B-6B87-325A-18B8-5827BA8EEAE4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="442" y="137" width="294" height="143"/>
