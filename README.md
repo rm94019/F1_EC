@@ -1,10 +1,9 @@
-# Data Model ( Academic )
+# Data Modeling - Project Enterprise Connection ( Academic )
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/rm94019/F1_EC?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/rm94019/F1_EC?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/rm94019/F1_EC?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/rm94019/F1_EC?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/rm94019/F1_EC?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/last-commit/rm94019/F1_EC?style=for-the-badge)
 
 <img src="https://docs.oracle.com/database/sql-developer-data-modeler-18.1/DMDUG/img/GUID-FBB0C5EC-338C-4BC3-B5EF-36A506861FB1-default.gif" alt="Oracle Data modeler">
 
