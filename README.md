@@ -1,4 +1,4 @@
-# Data Modeling - Project Enterprise Connection ( Academic )
+# Data Modeling - Enterprise Connection ( Academic )
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/rm94019/F1_EC?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/rm94019/F1_EC?style=for-the-badge)
